@@ -134,10 +134,127 @@
             ]
         },
         {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "BallisticHelmet_BDU",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Desert",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Navy",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_UN",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Winter",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BallisticHelmet_Woodland",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
             "slotName": "Gloves",
             "discreteItemSets": [
                 {
-                    "itemType": "WoolGloves_Black",
+                    "itemType": "TacticalGloves_Beige",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -151,7 +268,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "WoolGlovesFingerless_Black",
+                    "itemType": "TacticalGloves_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -165,49 +282,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "WoolGlovesFingerless_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "WoolGlovesFingerless_Tan",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "WoolGloves_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "WoolGloves_Tan",
+                    "itemType": "TacticalGloves_Green",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -434,8 +509,41 @@
             ]
         },
         {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalGoggles",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
             "slotName": "Mask",
             "discreteItemSets": [
+                {
+                    "itemType": "BalaclavaMask_BDU",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
                 {
                     "itemType": "BalaclavaMask_Beige",
                     "spawnWeight": 1,
@@ -556,665 +664,6 @@
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "HipPack_Medical",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Canteen"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "HipPack_Party",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Canteen"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                }
-            ]
-        },
-        {
-            "slotName": "Headgear",
-            "discreteItemSets": [
-                {
-                    "itemType": "BallisticHelmet_BDU",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Black",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Desert",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Navy",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Winter",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "BallisticHelmet_Woodland",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                }
-            ]
-        },
-        {
-            "slotName": "Hands",
-            "discreteItemSets": [
-                {
-                    "itemType": "AK74",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AK_PlasticHndgrd",
-                        "AK_RailHndgrd",
-                        "AK_RailHndgrd_Black",
-                        "AK_RailHndgrd_Green",
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_WoodHndgrd",
-                        "AK_WoodHndgrd_Black",
-                        "AK_WoodHndgrd_Camo",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AK74_Black",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AK_PlasticHndgrd",
-                        "AK_RailHndgrd",
-                        "AK_RailHndgrd_Black",
-                        "AK_RailHndgrd_Green",
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_WoodHndgrd",
-                        "AK_WoodHndgrd_Black",
-                        "AK_WoodHndgrd_Camo",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AK74_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AK_PlasticHndgrd",
-                        "AK_RailHndgrd",
-                        "AK_RailHndgrd_Black",
-                        "AK_RailHndgrd_Green",
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_WoodHndgrd",
-                        "AK_WoodHndgrd_Black",
-                        "AK_WoodHndgrd_Camo",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AKS74U",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AKS74U_Bttstck",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AKS74U_Black",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AKS74U_Bttstck",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AKS74U_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "AK_WoodBttstck",
-                        "AK_WoodBttstck_Black",
-                        "AK_WoodBttstck_Camo",
-                        "AK_FoldingBttstck",
-                        "AK_FoldingBttstck_Black",
-                        "AK_FoldingBttstck_Green",
-                        "AK_PlasticBttstck",
-                        "AK_PlasticBttstck_Black",
-                        "AK_PlasticBttstck_Green",
-                        "AKS74U_Bttstck",
-                        "Mag_AK74_45Rnd",
-                        "Mag_AK74_30Rnd",
-                        "Mag_AK74_30Rnd_Black",
-                        "Mag_AK74_30Rnd_Green"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "AugShort",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "Mag_Aug_30Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "FAMAS",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Mag_FAMAS_25Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "M16A2",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "Mag_CMAG_30Rnd",
-                        "Mag_CMAG_40Rnd",
-                        "Mag_STANAG_30Rnd",
-                        "Mag_STANAG_60Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "Vikhr",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "Mag_Vikhr_30Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "VSS",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1,
-                    "simpleChildrenTypes": [
-                        "Mag_Vikhr_30Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                }
-            ]
-        },
-        {
-            "slotName": "shoulderL",
-            "discreteItemSets": [
-                {
-                    "itemType": "CZ527",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "HuntingOptic",
-                        "Mag_CZ527_5rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "CZ527_Black",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "HuntingOptic",
-                        "Mag_CZ527_5rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "CZ527_Camo",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "HuntingOptic",
-                        "Mag_CZ527_5rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "CZ527_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "HuntingOptic",
-                        "Mag_CZ527_5rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "Scout",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_Scout_5Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "MK4Optic_Black",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ],
-                            "simpleChildrenUseDefaultAttributes": false
-                        }
-                    ]
-                },
-                {
-                    "itemType": "Scout_Chernarus",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_Scout_5Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "MK4Optic_Black",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ],
-                            "simpleChildrenUseDefaultAttributes": false
-                        }
-                    ]
-                },
-                {
-                    "itemType": "Scout_Livonia",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_Scout_5Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "MK4Optic_Black",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ],
-                            "simpleChildrenUseDefaultAttributes": false
-                        }
-                    ]
-                },
-                {
-                    "itemType": "SSG82",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_SSG82_5rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "VSS",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_Vikhr_30Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PSO6Optic",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ],
-                            "simpleChildrenUseDefaultAttributes": false
-                        }
-                    ]
-                },
-                {
-                    "itemType": "ASVAL",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 2,
-                    "simpleChildrenTypes": [
-                        "Mag_Vikhr_30Rnd"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "MK4Optic_Black",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ],
-                            "simpleChildrenUseDefaultAttributes": false
-                        }
-                    ]
                 }
             ]
         }
@@ -1253,7 +702,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Roadflare",
+                    "itemType": "Epinephrine",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
