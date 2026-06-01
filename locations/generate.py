@@ -50,3 +50,12 @@ def slugify(name):
     s = name.strip().lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-")
+
+
+def ring_points(cx, cz, radius, n):
+    """n points evenly spaced on a circle of `radius` about (cx, cz)."""
+    out = []
+    for i in range(n):
+        ang = 2.0 * math.pi * i / n
+        out.append((cx + radius * math.cos(ang), cz + radius * math.sin(ang)))
+    return out
