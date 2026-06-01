@@ -31,3 +31,19 @@ class TestRingPoints(unittest.TestCase):
     def test_all_at_radius(self):
         for x, z in generate.ring_points(500.0, 500.0, 80.0, 10):
             self.assertAlmostEqual(math.hypot(x - 500.0, z - 500.0), 80.0, places=4)
+
+
+BUILDINGS_XML = """<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<map>
+    <group name="Land_Shed_W2" pos="100.5 12.0 200.5" rpy="0 0 0" a="1" />
+    <group name="Land_Tenement_Small" pos="300 5 400" rpy="0 0 0" a="2" />
+</map>
+"""
+
+class TestLoadBuildings(unittest.TestCase):
+    def test_parses_x_and_z(self):
+        b = generate.load_buildings(BUILDINGS_XML)
+        self.assertEqual(b, [
+            (100.5, 200.5, "Land_Shed_W2"),
+            (300.0, 400.0, "Land_Tenement_Small"),
+        ])

@@ -59,3 +59,12 @@ def ring_points(cx, cz, radius, n):
         ang = 2.0 * math.pi * i / n
         out.append((cx + radius * math.cos(ang), cz + radius * math.sin(ang)))
     return out
+
+
+def load_buildings(xml_text):
+    """Parse mapgrouppos XML text -> list of (x, z, type_name)."""
+    out = []
+    pat = re.compile(r'<group name="([^"]+)" pos="([0-9.\-]+) [0-9.\-]+ ([0-9.\-]+)"')
+    for m in pat.finditer(xml_text):
+        out.append((float(m.group(2)), float(m.group(3)), m.group(1)))
+    return out
