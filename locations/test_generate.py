@@ -172,6 +172,52 @@ SPAWN_TEMPLATE = """<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 </playerspawnpoints>
 """
 
+EVENTSPAWNS_TEMPLATE = """<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+    <event name="VehicleCivilianSedan">
+        <pos x="1.0" z="1.0" a="0" />
+    </event>
+    <event name="Loot">
+        <pos x="2.0" z="2.0" a="0" />
+    </event>
+    <event name="StaticHeliCrash">
+        <zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+        <pos x="500.0" z="500.0" a="-1" />
+        <pos x="600.0" z="600.0" a="-1" />
+    </event>
+</eventposdef>
+"""
+
+class TestRenderEvents(unittest.TestCase):
+    def setUp(self):
+        self.keep = {"Loot", "StaticHeliCrash"}
+        self.heli = [(10.0, 20.0), (30.0, 40.0)]
+        self.out = generate.render_eventspawns(EVENTSPAWNS_TEMPLATE, self.heli, self.keep)
+        self.root = ET.fromstring(self.out)
+
+    def _event(self, name):
+        for ev in self.root.findall("event"):
+            if ev.get("name") == name:
+                return ev
+        return None
+
+    def test_dead_event_removed(self):
+        self.assertIsNone(self._event("VehicleCivilianSedan"))
+
+    def test_loot_kept(self):
+        self.assertIsNotNone(self._event("Loot"))
+
+    def test_heli_positions_replaced(self):
+        heli = self._event("StaticHeliCrash")
+        self.assertIsNotNone(heli.find("zone"))  # zone preserved
+        positions = heli.findall("pos")
+        self.assertEqual(len(positions), 2)
+        self.assertEqual(positions[0].get("a"), "-1")
+        coords = {(p.get("x"), p.get("z")) for p in positions}
+        self.assertIn((generate._fmt(10.0), generate._fmt(20.0)), coords)
+        self.assertNotIn(("500.0", "500.0"), coords)  # old positions gone
+
+
 class TestRenderSpawns(unittest.TestCase):
     def test_replaces_groups_and_distances(self):
         ring = [(100.0, 200.0), (300.0, 400.0)]
