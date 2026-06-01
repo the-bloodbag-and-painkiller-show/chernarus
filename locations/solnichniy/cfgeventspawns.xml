@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
-	<event name="StaticHeliCrash">
-		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
-		<pos x="13467.000000" z="6234.000000" a="-1" /><pos x="13242.000000" z="6309.000000" a="-1" /><pos x="13422.000000" z="6414.000000" a="-1" /><pos x="13287.000000" z="6144.000000" a="-1" /><pos x="13527.000000" z="6324.000000" a="-1" /><pos x="13317.000000" z="6384.000000" a="-1" /><pos x="13452.000000" z="6129.000000" a="-1" /><pos x="13242.000000" z="6219.000000" a="-1" /><pos x="13542.000000" z="6219.000000" a="-1" /></event>
-	<event name="Loot" />
-    <event name="InfectedVillage" />
-    <event name="InfectedSolitude" />
-    <event name="InfectedArmy" />
-    <event name="InfectedCity" />
-    <event name="InfectedMedic" />
-    <event name="InfectedPolice" />
-    <event name="InfectedFirefighter" />
-    <event name="InfectedPrisoner" />
-    </eventposdef>
+  <event name="StaticHeliCrash">
+    <zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+    <pos x="13467.000000" z="6234.000000" a="-1" />
+    <pos x="13242.000000" z="6309.000000" a="-1" />
+    <pos x="13422.000000" z="6414.000000" a="-1" />
+    <pos x="13287.000000" z="6144.000000" a="-1" />
+    <pos x="13527.000000" z="6324.000000" a="-1" />
+    <pos x="13317.000000" z="6384.000000" a="-1" />
+    <pos x="13452.000000" z="6129.000000" a="-1" />
+    <pos x="13242.000000" z="6219.000000" a="-1" />
+    <pos x="13542.000000" z="6219.000000" a="-1" />
+  </event>
+  <event name="Loot" />
+  <event name="InfectedVillage" />
+  <event name="InfectedSolitude" />
+  <event name="InfectedArmy" />
+  <event name="InfectedCity" />
+  <event name="InfectedMedic" />
+  <event name="InfectedPolice" />
+  <event name="InfectedFirefighter" />
+  <event name="InfectedPrisoner" />
+</eventposdef>

@@ -1,84 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <playerspawnpoints>
-    <fresh>
-        <spawn_params>
-            <min_dist_infected>30</min_dist_infected>
-            <max_dist_infected>70</max_dist_infected>
-            <min_dist_player>20</min_dist_player>
-            <max_dist_player>60</max_dist_player>
-            <min_dist_static>0</min_dist_static>
-            <max_dist_static>2</max_dist_static>
-        </spawn_params>
-        <generator_params>
-            <grid_density>4</grid_density>
-            <grid_width>200</grid_width>
-            <grid_height>200</grid_height>
-            <min_dist_static>0</min_dist_static>
-            <max_dist_static>2</max_dist_static>
-            <min_steepness>-45</min_steepness>
-            <max_steepness>45</max_steepness>
-        </generator_params>
-        <group_params>
-            <enablegroups>true</enablegroups>
-            <groups_as_regular>true</groups_as_regular>
-            <lifetime>120</lifetime>
-            <counter>2</counter>
-        </group_params>
-        <generator_posbubbles>
-            <group name="belaya-polana"><pos x="14166.000000" z="15013.000000" /><pos x="14150.721360" z="15060.022820" /><pos x="14110.721360" z="15089.084521" /><pos x="14061.278640" z="15089.084521" /><pos x="14021.278640" z="15060.022820" /><pos x="14006.000000" z="15013.000000" /><pos x="14021.278640" z="14965.977180" /><pos x="14061.278640" z="14936.915479" /><pos x="14110.721360" z="14936.915479" /><pos x="14150.721360" z="14965.977180" /></group></generator_posbubbles>
-    </fresh>
-    <hop>
-        <spawn_params>
-            <min_dist_infected>30.0</min_dist_infected>
-            <max_dist_infected>70.0</max_dist_infected>
-            <min_dist_player>20</min_dist_player>
-            <max_dist_player>60</max_dist_player>
-            <min_dist_static>0.5</min_dist_static>
-            <max_dist_static>2.0</max_dist_static>
-        </spawn_params>
-        <generator_params>
-            <grid_density>4</grid_density>
-            <grid_width>150</grid_width>
-            <grid_height>150</grid_height>
-            <min_dist_static>0</min_dist_static>
-            <max_dist_static>2</max_dist_static>
-            <min_steepness>-45</min_steepness>
-            <max_steepness>45</max_steepness>
-        </generator_params>
-        <group_params>
-            <enablegroups>false</enablegroups>
-            <groups_as_regular>true</groups_as_regular>
-            <lifetime>360</lifetime>
-            <counter>-1</counter>
-        </group_params>
-        <generator_posbubbles>
-            <group name="belaya-polana"><pos x="14166.000000" z="15013.000000" /><pos x="14150.721360" z="15060.022820" /><pos x="14110.721360" z="15089.084521" /><pos x="14061.278640" z="15089.084521" /><pos x="14021.278640" z="15060.022820" /><pos x="14006.000000" z="15013.000000" /><pos x="14021.278640" z="14965.977180" /><pos x="14061.278640" z="14936.915479" /><pos x="14110.721360" z="14936.915479" /><pos x="14150.721360" z="14965.977180" /></group></generator_posbubbles>
-    </hop>
-    <travel>
-        <spawn_params>
-            <min_dist_infected>30.0</min_dist_infected>
-            <max_dist_infected>70.0</max_dist_infected>
-            <min_dist_player>20</min_dist_player>
-            <max_dist_player>60</max_dist_player>
-            <min_dist_static>0.5</min_dist_static>
-            <max_dist_static>2.0</max_dist_static>
-        </spawn_params>
-       <generator_params>
-            <grid_density>4</grid_density>
-            <grid_width>150</grid_width>
-            <grid_height>150</grid_height>
-            <min_dist_static>0</min_dist_static>
-            <max_dist_static>2</max_dist_static>
-            <min_steepness>-45</min_steepness>
-            <max_steepness>45</max_steepness>
-        </generator_params>
-        <group_params>
-            <enablegroups>false</enablegroups>
-            <groups_as_regular>true</groups_as_regular>
-            <lifetime>360</lifetime>
-            <counter>-1</counter>
-        </group_params>
-        <generator_posbubbles>
-            <group name="belaya-polana"><pos x="14166.000000" z="15013.000000" /><pos x="14150.721360" z="15060.022820" /><pos x="14110.721360" z="15089.084521" /><pos x="14061.278640" z="15089.084521" /><pos x="14021.278640" z="15060.022820" /><pos x="14006.000000" z="15013.000000" /><pos x="14021.278640" z="14965.977180" /><pos x="14061.278640" z="14936.915479" /><pos x="14110.721360" z="14936.915479" /><pos x="14150.721360" z="14965.977180" /></group></generator_posbubbles>
-    </travel>
+  <fresh>
+    <spawn_params>
+      <min_dist_infected>30</min_dist_infected>
+      <max_dist_infected>70</max_dist_infected>
+      <min_dist_player>20</min_dist_player>
+      <max_dist_player>60</max_dist_player>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>2</max_dist_static>
+    </spawn_params>
+    <generator_params>
+      <grid_density>4</grid_density>
+      <grid_width>200</grid_width>
+      <grid_height>200</grid_height>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>2</max_dist_static>
+      <min_steepness>-45</min_steepness>
+      <max_steepness>45</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>true</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>120</lifetime>
+      <counter>2</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="belaya-polana">
+        <pos x="14166.000000" z="15013.000000" />
+        <pos x="14150.721360" z="15060.022820" />
+        <pos x="14110.721360" z="15089.084521" />
+        <pos x="14061.278640" z="15089.084521" />
+        <pos x="14021.278640" z="15060.022820" />
+        <pos x="14006.000000" z="15013.000000" />
+        <pos x="14021.278640" z="14965.977180" />
+        <pos x="14061.278640" z="14936.915479" />
+        <pos x="14110.721360" z="14936.915479" />
+        <pos x="14150.721360" z="14965.977180" />
+      </group>
+    </generator_posbubbles>
+  </fresh>
+  <hop>
+    <spawn_params>
+      <min_dist_infected>30.0</min_dist_infected>
+      <max_dist_infected>70.0</max_dist_infected>
+      <min_dist_player>20</min_dist_player>
+      <max_dist_player>60</max_dist_player>
+      <min_dist_static>0.5</min_dist_static>
+      <max_dist_static>2.0</max_dist_static>
+    </spawn_params>
+    <generator_params>
+      <grid_density>4</grid_density>
+      <grid_width>150</grid_width>
+      <grid_height>150</grid_height>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>2</max_dist_static>
+      <min_steepness>-45</min_steepness>
+      <max_steepness>45</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>false</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>360</lifetime>
+      <counter>-1</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="belaya-polana">
+        <pos x="14166.000000" z="15013.000000" />
+        <pos x="14150.721360" z="15060.022820" />
+        <pos x="14110.721360" z="15089.084521" />
+        <pos x="14061.278640" z="15089.084521" />
+        <pos x="14021.278640" z="15060.022820" />
+        <pos x="14006.000000" z="15013.000000" />
+        <pos x="14021.278640" z="14965.977180" />
+        <pos x="14061.278640" z="14936.915479" />
+        <pos x="14110.721360" z="14936.915479" />
+        <pos x="14150.721360" z="14965.977180" />
+      </group>
+    </generator_posbubbles>
+  </hop>
+  <travel>
+    <spawn_params>
+      <min_dist_infected>30.0</min_dist_infected>
+      <max_dist_infected>70.0</max_dist_infected>
+      <min_dist_player>20</min_dist_player>
+      <max_dist_player>60</max_dist_player>
+      <min_dist_static>0.5</min_dist_static>
+      <max_dist_static>2.0</max_dist_static>
+    </spawn_params>
+    <generator_params>
+      <grid_density>4</grid_density>
+      <grid_width>150</grid_width>
+      <grid_height>150</grid_height>
+      <min_dist_static>0</min_dist_static>
+      <max_dist_static>2</max_dist_static>
+      <min_steepness>-45</min_steepness>
+      <max_steepness>45</max_steepness>
+    </generator_params>
+    <group_params>
+      <enablegroups>false</enablegroups>
+      <groups_as_regular>true</groups_as_regular>
+      <lifetime>360</lifetime>
+      <counter>-1</counter>
+    </group_params>
+    <generator_posbubbles>
+      <group name="belaya-polana">
+        <pos x="14166.000000" z="15013.000000" />
+        <pos x="14150.721360" z="15060.022820" />
+        <pos x="14110.721360" z="15089.084521" />
+        <pos x="14061.278640" z="15089.084521" />
+        <pos x="14021.278640" z="15060.022820" />
+        <pos x="14006.000000" z="15013.000000" />
+        <pos x="14021.278640" z="14965.977180" />
+        <pos x="14061.278640" z="14936.915479" />
+        <pos x="14110.721360" z="14936.915479" />
+        <pos x="14150.721360" z="14965.977180" />
+      </group>
+    </generator_posbubbles>
+  </travel>
 </playerspawnpoints>

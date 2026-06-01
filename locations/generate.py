@@ -132,7 +132,12 @@ def farthest_point_sample(candidates, k, seed):
 
 
 def active_event_names(events_xml_text):
-    """Names of events with <active>1</active> in db/events.xml."""
+    """Names of events with <active>1</active> in db/events.xml.
+
+    Note: the returned set may include Infected* variants that have no
+    matching <event> in the cfgeventspawns template.  Those names are simply
+    never emitted (intersection semantics) — that's expected, not a bug.
+    """
     root = ET.fromstring(events_xml_text)
     out = set()
     for ev in root.findall("event"):
@@ -169,6 +174,7 @@ def render_playerspawnpoints(template_text, ring, group_name):
         grp = ET.SubElement(bubbles, "group", {"name": group_name})
         for x, z in ring:
             ET.SubElement(grp, "pos", {"x": _fmt(x), "z": _fmt(z)})
+    ET.indent(root)
     return XML_DECL + ET.tostring(root, encoding="unicode")
 
 
@@ -185,6 +191,7 @@ def render_eventspawns(template_text, heli_positions, keep_names):
                 ev.remove(pos)  # keep <zone>, drop old <pos>
             for x, z in heli_positions:
                 ET.SubElement(ev, "pos", {"x": _fmt(x), "z": _fmt(z), "a": "-1"})
+    ET.indent(root)
     return XML_DECL + ET.tostring(root, encoding="unicode")
 
 
