@@ -92,3 +92,37 @@ def is_clear(point, buildings, base):
         if (px - bx) ** 2 + (pz - bz) ** 2 < rc * rc:
             return False
     return True
+
+
+def _dist2(a, b):
+    return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
+
+
+def grid_candidates(center, radius, spacing=GRID_SPACING):
+    """Grid-sampled points within `radius` of center (center point included)."""
+    cx, cz = center
+    out = []
+    steps = int(radius // spacing)
+    for i in range(-steps, steps + 1):
+        for j in range(-steps, steps + 1):
+            x, z = cx + i * spacing, cz + j * spacing
+            if (x - cx) ** 2 + (z - cz) ** 2 <= radius * radius:
+                out.append((x, z))
+    return out
+
+
+def farthest_point_sample(candidates, k, seed):
+    """Pick up to k candidates spread apart, starting nearest to `seed`."""
+    if not candidates:
+        return []
+    chosen = [min(candidates, key=lambda c: _dist2(c, seed))]
+    while len(chosen) < k and len(chosen) < len(candidates):
+        best, best_d = None, -1.0
+        for c in candidates:
+            if c in chosen:
+                continue
+            d = min(_dist2(c, ch) for ch in chosen)
+            if d > best_d:
+                best_d, best = d, c
+        chosen.append(best)
+    return chosen

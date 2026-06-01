@@ -72,3 +72,31 @@ class TestClearance(unittest.TestCase):
     def test_is_clear_blocked_by_large(self):
         # 40m away but a Tenement needs 45m
         self.assertFalse(generate.is_clear((0.0, 0.0), [(40.0, 0.0, "Land_Tenement_Small")], 30.0))
+
+
+class TestCandidates(unittest.TestCase):
+    def test_grid_within_circle(self):
+        pts = generate.grid_candidates((0.0, 0.0), 30.0, spacing=15.0)
+        self.assertTrue(len(pts) > 0)
+        for x, z in pts:
+            self.assertLessEqual(math.hypot(x, z), 30.0 + 1e-9)
+
+    def test_grid_includes_center(self):
+        pts = generate.grid_candidates((100.0, 200.0), 30.0, spacing=15.0)
+        self.assertIn((100.0, 200.0), pts)
+
+    def test_fps_returns_k(self):
+        cands = [(float(i), 0.0) for i in range(20)]
+        sel = generate.farthest_point_sample(cands, 5, (0.0, 0.0))
+        self.assertEqual(len(sel), 5)
+
+    def test_fps_spreads_out(self):
+        # On a line 0..19, FPS from seed 0 should include the far end (19)
+        cands = [(float(i), 0.0) for i in range(20)]
+        sel = generate.farthest_point_sample(cands, 5, (0.0, 0.0))
+        self.assertIn((19.0, 0.0), sel)
+
+    def test_fps_handles_fewer_than_k(self):
+        cands = [(0.0, 0.0), (10.0, 0.0)]
+        sel = generate.farthest_point_sample(cands, 5, (0.0, 0.0))
+        self.assertEqual(len(sel), 2)
