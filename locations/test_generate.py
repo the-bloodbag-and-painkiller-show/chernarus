@@ -129,3 +129,17 @@ class TestFindHeli(unittest.TestCase):
             buildings=[(0.0, 0.0, "Land_Shed_W2")], count=9)
         for x, z in positions:
             self.assertGreaterEqual(math.hypot(x, z), 30.0)
+
+
+EVENTS_XML = """<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<events>
+    <event name="Loot"><active>1</active><nominal>0</nominal></event>
+    <event name="VehicleCivilianSedan"><active>0</active></event>
+    <event name="StaticHeliCrash"><active>1</active><nominal>3</nominal></event>
+</events>
+"""
+
+class TestActiveEvents(unittest.TestCase):
+    def test_only_active(self):
+        names = generate.active_event_names(EVENTS_XML)
+        self.assertEqual(names, {"Loot", "StaticHeliCrash"})

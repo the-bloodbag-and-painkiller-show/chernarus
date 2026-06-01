@@ -131,6 +131,17 @@ def farthest_point_sample(candidates, k, seed):
     return chosen
 
 
+def active_event_names(events_xml_text):
+    """Names of events with <active>1</active> in db/events.xml."""
+    root = ET.fromstring(events_xml_text)
+    out = set()
+    for ev in root.findall("event"):
+        active = ev.findtext("active", default="0").strip()
+        if active == "1":
+            out.add(ev.get("name"))
+    return out
+
+
 def find_heli_positions(center, footprint_r, buildings, count=HELI_COUNT):
     """Return (positions, used_base): open heli spots scattered in the footprint.
 
