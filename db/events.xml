@@ -448,11 +448,11 @@
         <nominal>2</nominal>
         <min>2</min>
         <max>2</max>
-        <lifetime>300</lifetime>
+        <lifetime>2100</lifetime>
         <restock>0</restock>
-        <saferadius>10</saferadius>
-        <distanceradius>10</distanceradius>
-        <cleanupradius>10</cleanupradius>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
         <secondary>InfectedArmy</secondary>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
