@@ -142,6 +142,52 @@ def active_event_names(events_xml_text):
     return out
 
 
+def _fmt(v):
+    """Format a coordinate float the way DayZ configs do."""
+    return f"{v:.6f}"
+
+
+def render_playerspawnpoints(template_text, ring, group_name):
+    """Replace every section's pos-bubbles with one ring group; tighten distances."""
+    root = ET.fromstring(template_text)
+    for section in ("fresh", "hop", "travel"):
+        sec = root.find(section)
+        if sec is None:
+            continue
+        sp = sec.find("spawn_params")
+        if sp is not None:
+            for tag, val in (("min_dist_player", MIN_DIST_PLAYER),
+                             ("max_dist_player", MAX_DIST_PLAYER)):
+                el = sp.find(tag)
+                if el is not None:
+                    el.text = str(int(val))
+        bubbles = sec.find("generator_posbubbles")
+        if bubbles is None:
+            continue
+        for child in list(bubbles):
+            bubbles.remove(child)
+        grp = ET.SubElement(bubbles, "group", {"name": group_name})
+        for x, z in ring:
+            ET.SubElement(grp, "pos", {"x": _fmt(x), "z": _fmt(z)})
+    return XML_DECL + ET.tostring(root, encoding="unicode")
+
+
+def render_eventspawns(template_text, heli_positions, keep_names):
+    """Strip dead events; relocate StaticHeliCrash; keep the rest of keep_names."""
+    root = ET.fromstring(template_text)
+    for ev in list(root.findall("event")):
+        name = ev.get("name")
+        if name not in keep_names:
+            root.remove(ev)
+            continue
+        if name == "StaticHeliCrash":
+            for pos in ev.findall("pos"):
+                ev.remove(pos)  # keep <zone>, drop old <pos>
+            for x, z in heli_positions:
+                ET.SubElement(ev, "pos", {"x": _fmt(x), "z": _fmt(z), "a": "-1"})
+    return XML_DECL + ET.tostring(root, encoding="unicode")
+
+
 def find_heli_positions(center, footprint_r, buildings, count=HELI_COUNT):
     """Return (positions, used_base): open heli spots scattered in the footprint.
 

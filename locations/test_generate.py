@@ -1,5 +1,6 @@
 import math
 import unittest
+import xml.etree.ElementTree as ET
 
 import generate
 
@@ -143,3 +144,48 @@ class TestActiveEvents(unittest.TestCase):
     def test_only_active(self):
         names = generate.active_event_names(EVENTS_XML)
         self.assertEqual(names, {"Loot", "StaticHeliCrash"})
+
+
+SPAWN_TEMPLATE = """<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<playerspawnpoints>
+    <fresh>
+        <spawn_params>
+            <min_dist_player>65</min_dist_player>
+            <max_dist_player>150</max_dist_player>
+        </spawn_params>
+        <generator_posbubbles>
+            <group name="OldTown">
+                <pos x="1.0" z="2.0" />
+                <pos x="3.0" z="4.0" />
+            </group>
+        </generator_posbubbles>
+    </fresh>
+    <hop>
+        <spawn_params>
+            <min_dist_player>25</min_dist_player>
+            <max_dist_player>70</max_dist_player>
+        </spawn_params>
+        <generator_posbubbles>
+            <group name="OldHop"><pos x="9.0" z="9.0" /></group>
+        </generator_posbubbles>
+    </hop>
+</playerspawnpoints>
+"""
+
+class TestRenderSpawns(unittest.TestCase):
+    def test_replaces_groups_and_distances(self):
+        ring = [(100.0, 200.0), (300.0, 400.0)]
+        out = generate.render_playerspawnpoints(SPAWN_TEMPLATE, ring, "novy-sobor")
+        root = ET.fromstring(out)
+        for section in ("fresh", "hop"):
+            sec = root.find(section)
+            bubbles = sec.find("generator_posbubbles")
+            groups = bubbles.findall("group")
+            self.assertEqual(len(groups), 1)
+            self.assertEqual(len(groups[0].findall("pos")), 2)
+            self.assertEqual(sec.findtext("spawn_params/min_dist_player"), "20")
+            self.assertEqual(sec.findtext("spawn_params/max_dist_player"), "60")
+
+    def test_starts_with_xml_declaration(self):
+        out = generate.render_playerspawnpoints(SPAWN_TEMPLATE, [(1.0, 2.0)], "x")
+        self.assertTrue(out.startswith("<?xml"))
