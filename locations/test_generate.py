@@ -235,3 +235,27 @@ class TestRenderSpawns(unittest.TestCase):
     def test_starts_with_xml_declaration(self):
         out = generate.render_playerspawnpoints(SPAWN_TEMPLATE, [(1.0, 2.0)], "x")
         self.assertTrue(out.startswith("<?xml"))
+
+
+class TestBuildTown(unittest.TestCase):
+    def test_build_town_outputs(self):
+        town = {"name": "Novy Sobor", "cat": "Village", "cx": 7100, "cz": 7700}
+        result = generate.build_town(
+            town,
+            buildings=[],
+            spawn_template=SPAWN_TEMPLATE,
+            event_template=EVENTSPAWNS_TEMPLATE,
+            keep_names={"Loot", "StaticHeliCrash"},
+        )
+        self.assertEqual(result["slug"], "novy-sobor")
+        self.assertEqual(result["spawn_points"], 12)   # Village -> 12
+        self.assertEqual(result["spawn_radius"], 110)
+        # spawn XML well-formed and has 12 ring pos in fresh
+        sroot = ET.fromstring(result["spawn_xml"])
+        self.assertEqual(
+            len(sroot.find("fresh/generator_posbubbles/group").findall("pos")), 12)
+        # event XML well-formed with 9 heli positions
+        eroot = ET.fromstring(result["event_xml"])
+        heli = [e for e in eroot.findall("event") if e.get("name") == "StaticHeliCrash"][0]
+        self.assertEqual(len(heli.findall("pos")), 9)
+        self.assertEqual(result["heli_count"], 9)

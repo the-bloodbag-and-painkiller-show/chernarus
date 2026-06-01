@@ -208,3 +208,70 @@ def find_heli_positions(center, footprint_r, buildings, count=HELI_COUNT):
             break
         base -= CLEARANCE_STEP
     return farthest_point_sample(clear, count, center), base
+
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+LOCATIONS_DIR = Path(__file__).resolve().parent
+
+
+def build_town(town, buildings, spawn_template, event_template, keep_names):
+    """Produce one town's slug, params, and both rendered XML strings."""
+    params = CATEGORY_PARAMS[town["cat"]]
+    cx, cz = float(town["cx"]), float(town["cz"])
+    slug = slugify(town["name"])
+    ring = ring_points(cx, cz, params["radius"], params["points"])
+    footprint_r = params["radius"] + FOOTPRINT_MARGIN
+    heli, used_base = find_heli_positions((cx, cz), footprint_r, buildings)
+    return {
+        "name": town["name"],
+        "slug": slug,
+        "category": town["cat"],
+        "center_x": round(cx),
+        "center_z": round(cz),
+        "spawn_radius": params["radius"],
+        "spawn_points": params["points"],
+        "heli_count": len(heli),
+        "heli_clearance": used_base,
+        "spawn_xml": render_playerspawnpoints(spawn_template, ring, slug),
+        "event_xml": render_eventspawns(event_template, heli, keep_names),
+    }
+
+
+def _xmllint_ok(path):
+    return subprocess.run(["xmllint", "--noout", str(path)]).returncode == 0
+
+
+def main():
+    towns = json.loads((REPO_ROOT / "docs" / "town-centers.json").read_text())
+    buildings = load_buildings((REPO_ROOT / "mapgrouppos.xml").read_text())
+    spawn_template = (REPO_ROOT / "cfgplayerspawnpoints.xml").read_text()
+    event_template = (REPO_ROOT / "cfgeventspawns.xml").read_text()
+    keep_names = active_event_names((REPO_ROOT / "db" / "events.xml").read_text())
+
+    index = []
+    warnings = []
+    for town in towns:
+        r = build_town(town, buildings, spawn_template, event_template, keep_names)
+        dest = LOCATIONS_DIR / r["slug"]
+        dest.mkdir(exist_ok=True)
+        (dest / "cfgplayerspawnpoints.xml").write_text(r["spawn_xml"])
+        (dest / "cfgeventspawns.xml").write_text(r["event_xml"])
+        for fname in ("cfgplayerspawnpoints.xml", "cfgeventspawns.xml"):
+            if not _xmllint_ok(dest / fname):
+                warnings.append(f"INVALID XML: {r['slug']}/{fname}")
+        if r["heli_count"] < HELI_COUNT:
+            warnings.append(
+                f"{r['slug']}: only {r['heli_count']} heli spots "
+                f"(clearance relaxed to {r['heli_clearance']}m)")
+        index.append({k: r[k] for k in (
+            "name", "slug", "category", "center_x", "center_z",
+            "spawn_radius", "spawn_points", "heli_count")})
+
+    (LOCATIONS_DIR / "index.json").write_text(json.dumps(index, indent=2) + "\n")
+    print(f"Generated {len(index)} towns.")
+    for w in warnings:
+        print("  WARN:", w)
+
+
+if __name__ == "__main__":
+    main()
