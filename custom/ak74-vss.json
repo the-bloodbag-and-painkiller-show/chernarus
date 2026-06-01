@@ -768,6 +768,26 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
+                },
+                {
+                    "itemType": "Mag_AK74_45Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_Vikhr_30Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
                 }
             ]
         }
