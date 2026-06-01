@@ -68,3 +68,27 @@ def load_buildings(xml_text):
     for m in pat.finditer(xml_text):
         out.append((float(m.group(2)), float(m.group(3)), m.group(1)))
     return out
+
+
+def large_clearance(type_name):
+    """Extra clearance for big-footprint building types; 0.0 if not large."""
+    best = 0.0
+    for key, val in LARGE_BUILDING_CLEARANCE.items():
+        if key in type_name and val > best:
+            best = val
+    return best
+
+
+def required_clearance(type_name, base):
+    """Clearance a heli must keep from this building: max(base, large bump)."""
+    return max(base, large_clearance(type_name))
+
+
+def is_clear(point, buildings, base):
+    """True if `point` is at least required_clearance from every building."""
+    px, pz = point
+    for bx, bz, bt in buildings:
+        rc = required_clearance(bt, base)
+        if (px - bx) ** 2 + (pz - bz) ** 2 < rc * rc:
+            return False
+    return True

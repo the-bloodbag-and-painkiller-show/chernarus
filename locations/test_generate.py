@@ -47,3 +47,28 @@ class TestLoadBuildings(unittest.TestCase):
             (100.5, 200.5, "Land_Shed_W2"),
             (300.0, 400.0, "Land_Tenement_Small"),
         ])
+
+
+class TestClearance(unittest.TestCase):
+    def test_large_clearance_match(self):
+        self.assertEqual(generate.large_clearance("Land_Tenement_Small"), 45.0)
+
+    def test_large_clearance_none(self):
+        self.assertEqual(generate.large_clearance("Land_Shed_W2"), 0.0)
+
+    def test_required_default(self):
+        self.assertEqual(generate.required_clearance("Land_Shed_W2", 30.0), 30.0)
+
+    def test_required_uses_large_bump(self):
+        # large type keeps its 45 even when base is relaxed to 22
+        self.assertEqual(generate.required_clearance("Land_Tenement_Small", 22.0), 45.0)
+
+    def test_is_clear_far_small_building(self):
+        self.assertTrue(generate.is_clear((0.0, 0.0), [(40.0, 0.0, "Land_Shed_W2")], 30.0))
+
+    def test_is_clear_too_close_small(self):
+        self.assertFalse(generate.is_clear((0.0, 0.0), [(25.0, 0.0, "Land_Shed_W2")], 30.0))
+
+    def test_is_clear_blocked_by_large(self):
+        # 40m away but a Tenement needs 45m
+        self.assertFalse(generate.is_clear((0.0, 0.0), [(40.0, 0.0, "Land_Tenement_Small")], 30.0))
