@@ -43,3 +43,10 @@ LARGE_BUILDING_CLEARANCE = {
 }
 
 XML_DECL = '<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>\n'
+
+
+def slugify(name):
+    """Town display name -> kebab-case folder slug (matches custom/ naming)."""
+    s = name.strip().lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return s.strip("-")
