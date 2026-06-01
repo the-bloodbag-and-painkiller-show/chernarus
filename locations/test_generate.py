@@ -101,6 +101,17 @@ class TestCandidates(unittest.TestCase):
         sel = generate.farthest_point_sample(cands, 5, (0.0, 0.0))
         self.assertEqual(len(sel), 2)
 
+    def test_fps_deduplicates(self):
+        result = generate.farthest_point_sample(
+            [(0.0, 0.0), (0.0, 0.0), (10.0, 0.0)], 3, (0.0, 0.0))
+        self.assertNotIn(None, result)
+        self.assertEqual(len(result), len(set(result)))
+
+    def test_fps_zero_k(self):
+        result = generate.farthest_point_sample(
+            [(1.0, 1.0), (2.0, 2.0)], 0, (0.0, 0.0))
+        self.assertEqual(result, [])
+
 
 class TestFindHeli(unittest.TestCase):
     def test_open_field_returns_count(self):

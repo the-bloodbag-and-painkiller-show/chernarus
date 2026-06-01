@@ -115,6 +115,9 @@ def farthest_point_sample(candidates, k, seed):
     """Pick up to k candidates spread apart, starting nearest to `seed`."""
     if not candidates:
         return []
+    if k <= 0:
+        return []
+    candidates = list(dict.fromkeys(candidates))
     chosen = [min(candidates, key=lambda c: _dist2(c, seed))]
     while len(chosen) < k and len(chosen) < len(candidates):
         best, best_d = None, -1.0
