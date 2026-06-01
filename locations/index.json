@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Balota",
+    "slug": "balota",
+    "category": "Village",
+    "center_x": 4471,
+    "center_z": 2452,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Belaya Polana",
+    "slug": "belaya-polana",
+    "category": "Hamlet",
+    "center_x": 14086,
+    "center_z": 15013,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Berezhki",
+    "slug": "berezhki",
+    "category": "Hamlet",
+    "center_x": 15186,
+    "center_z": 13829,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Berezino",
+    "slug": "berezino",
+    "category": "Large City",
+    "center_x": 12908,
+    "center_z": 10096,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Bogatyrka",
+    "slug": "bogatyrka",
+    "category": "Hamlet",
+    "center_x": 1542,
+    "center_z": 9035,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Bor",
+    "slug": "bor",
+    "category": "Village",
+    "center_x": 3283,
+    "center_z": 3935,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Chernaya Polana",
+    "slug": "chernaya-polana",
+    "category": "Town",
+    "center_x": 12087,
+    "center_z": 13796,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Chernogorsk",
+    "slug": "chernogorsk",
+    "category": "Large City",
+    "center_x": 6602,
+    "center_z": 2534,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Dobroe",
+    "slug": "dobroe",
+    "category": "Hamlet",
+    "center_x": 12927,
+    "center_z": 15038,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Dolina",
+    "slug": "dolina",
+    "category": "Village",
+    "center_x": 11301,
+    "center_z": 6587,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Drozhino",
+    "slug": "drozhino",
+    "category": "Hamlet",
+    "center_x": 3355,
+    "center_z": 4928,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Dubky",
+    "slug": "dubky",
+    "category": "Village",
+    "center_x": 6659,
+    "center_z": 3599,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Dubrovka",
+    "slug": "dubrovka",
+    "category": "Village",
+    "center_x": 10482,
+    "center_z": 9790,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Elektrozavodsk",
+    "slug": "elektrozavodsk",
+    "category": "Large City",
+    "center_x": 10475,
+    "center_z": 2252,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Gorka",
+    "slug": "gorka",
+    "category": "Village",
+    "center_x": 9524,
+    "center_z": 8835,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Grishino",
+    "slug": "grishino",
+    "category": "Town",
+    "center_x": 5991,
+    "center_z": 10304,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Guglovo",
+    "slug": "guglovo",
+    "category": "Hamlet",
+    "center_x": 8416,
+    "center_z": 6646,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Gvozdno",
+    "slug": "gvozdno",
+    "category": "Village",
+    "center_x": 8566,
+    "center_z": 11953,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Kabanino",
+    "slug": "kabanino",
+    "category": "Village",
+    "center_x": 5355,
+    "center_z": 8587,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Kamenka",
+    "slug": "kamenka",
+    "category": "Village",
+    "center_x": 1842,
+    "center_z": 2215,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Kamensk",
+    "slug": "kamensk",
+    "category": "Village",
+    "center_x": 6646,
+    "center_z": 14430,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Kamyshovo",
+    "slug": "kamyshovo",
+    "category": "Village",
+    "center_x": 12069,
+    "center_z": 3541,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Karmanovka",
+    "slug": "karmanovka",
+    "category": "Village",
+    "center_x": 12646,
+    "center_z": 14717,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Khelm",
+    "slug": "khelm",
+    "category": "Village",
+    "center_x": 12296,
+    "center_z": 10896,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Komarovo",
+    "slug": "komarovo",
+    "category": "Village",
+    "center_x": 3622,
+    "center_z": 2491,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Kozlovka",
+    "slug": "kozlovka",
+    "category": "Village",
+    "center_x": 4396,
+    "center_z": 4641,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Krasnoe",
+    "slug": "krasnoe",
+    "category": "Hamlet",
+    "center_x": 6444,
+    "center_z": 14936,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Krasnostav",
+    "slug": "krasnostav",
+    "category": "Town",
+    "center_x": 11163,
+    "center_z": 12264,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Lopatino",
+    "slug": "lopatino",
+    "category": "Village",
+    "center_x": 2750,
+    "center_z": 9948,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Mamino",
+    "slug": "mamino",
+    "category": "Hamlet",
+    "center_x": 7980,
+    "center_z": 13045,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Mogilevka",
+    "slug": "mogilevka",
+    "category": "Village",
+    "center_x": 7572,
+    "center_z": 5144,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Msta",
+    "slug": "msta",
+    "category": "Village",
+    "center_x": 11306,
+    "center_z": 5467,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Myshkino",
+    "slug": "myshkino",
+    "category": "Village",
+    "center_x": 1994,
+    "center_z": 7314,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Nadezhdino",
+    "slug": "nadezhdino",
+    "category": "Village",
+    "center_x": 5859,
+    "center_z": 4756,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Nagornoe",
+    "slug": "nagornoe",
+    "category": "Hamlet",
+    "center_x": 9342,
+    "center_z": 14602,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Nizhnoye",
+    "slug": "nizhnoye",
+    "category": "Village",
+    "center_x": 12913,
+    "center_z": 8101,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Novaya Petrovka",
+    "slug": "novaya-petrovka",
+    "category": "Small City",
+    "center_x": 3380,
+    "center_z": 13049,
+    "spawn_radius": 180,
+    "spawn_points": 16,
+    "heli_count": 9
+  },
+  {
+    "name": "Novodmitrovsk",
+    "slug": "novodmitrovsk",
+    "category": "Large City",
+    "center_x": 11627,
+    "center_z": 14472,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Novoselky",
+    "slug": "novoselky",
+    "category": "Village",
+    "center_x": 6179,
+    "center_z": 3186,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Novy Sobor",
+    "slug": "novy-sobor",
+    "category": "Village",
+    "center_x": 7100,
+    "center_z": 7700,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Olsha",
+    "slug": "olsha",
+    "category": "Village",
+    "center_x": 13295,
+    "center_z": 12976,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Orlovets",
+    "slug": "orlovets",
+    "category": "Village",
+    "center_x": 12137,
+    "center_z": 7264,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Pavlovo",
+    "slug": "pavlovo",
+    "category": "Village",
+    "center_x": 1694,
+    "center_z": 3830,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Pogorevka",
+    "slug": "pogorevka",
+    "category": "Village",
+    "center_x": 4475,
+    "center_z": 6418,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Polana",
+    "slug": "polana",
+    "category": "Town",
+    "center_x": 10689,
+    "center_z": 8057,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Polesovo",
+    "slug": "polesovo",
+    "category": "Village",
+    "center_x": 5846,
+    "center_z": 13559,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Prigorodki",
+    "slug": "prigorodki",
+    "category": "Village",
+    "center_x": 7841,
+    "center_z": 3042,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Pulkovo",
+    "slug": "pulkovo",
+    "category": "Hamlet",
+    "center_x": 4923,
+    "center_z": 5662,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Pusta",
+    "slug": "pusta",
+    "category": "Village",
+    "center_x": 9149,
+    "center_z": 3905,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Pustoshka",
+    "slug": "pustoshka",
+    "category": "Village",
+    "center_x": 3063,
+    "center_z": 7897,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Ratnoe",
+    "slug": "ratnoe",
+    "category": "Village",
+    "center_x": 6278,
+    "center_z": 12693,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Rogovo",
+    "slug": "rogovo",
+    "category": "Village",
+    "center_x": 4738,
+    "center_z": 6786,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Samorodok",
+    "slug": "samorodok",
+    "category": "Hamlet",
+    "center_x": 5920,
+    "center_z": 14369,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Severograd",
+    "slug": "severograd",
+    "category": "Large City",
+    "center_x": 7954,
+    "center_z": 12658,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Shakhovka",
+    "slug": "shakhovka",
+    "category": "Hamlet",
+    "center_x": 9646,
+    "center_z": 6602,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Sinistok",
+    "slug": "sinistok",
+    "category": "Village",
+    "center_x": 1497,
+    "center_z": 12017,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Smirnovo",
+    "slug": "smirnovo",
+    "category": "Hamlet",
+    "center_x": 11466,
+    "center_z": 14879,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Solnichniy",
+    "slug": "solnichniy",
+    "category": "Village",
+    "center_x": 13392,
+    "center_z": 6264,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Sosnovka",
+    "slug": "sosnovka",
+    "category": "Village",
+    "center_x": 2489,
+    "center_z": 6370,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Staroye",
+    "slug": "staroye",
+    "category": "Village",
+    "center_x": 10160,
+    "center_z": 5500,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Stary Sobor",
+    "slug": "stary-sobor",
+    "category": "Town",
+    "center_x": 6111,
+    "center_z": 7776,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Stary Yar",
+    "slug": "stary-yar",
+    "category": "Village",
+    "center_x": 4993,
+    "center_z": 15066,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Svergino",
+    "slug": "svergino",
+    "category": "Village",
+    "center_x": 9572,
+    "center_z": 13785,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Svetlojarsk",
+    "slug": "svetlojarsk",
+    "category": "Small City",
+    "center_x": 13909,
+    "center_z": 13268,
+    "spawn_radius": 180,
+    "spawn_points": 16,
+    "heli_count": 9
+  },
+  {
+    "name": "Tisy",
+    "slug": "tisy",
+    "category": "Village",
+    "center_x": 3335,
+    "center_z": 14975,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Topolniki",
+    "slug": "topolniki",
+    "category": "Village",
+    "center_x": 2777,
+    "center_z": 12345,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Troitskoe",
+    "slug": "troitskoe",
+    "category": "Hamlet",
+    "center_x": 7570,
+    "center_z": 13406,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Tulga",
+    "slug": "tulga",
+    "category": "Village",
+    "center_x": 12792,
+    "center_z": 4430,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Turovo",
+    "slug": "turovo",
+    "category": "Village",
+    "center_x": 13547,
+    "center_z": 14088,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Vavilovo",
+    "slug": "vavilovo",
+    "category": "Town",
+    "center_x": 2291,
+    "center_z": 11059,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Vybor",
+    "slug": "vybor",
+    "category": "Town",
+    "center_x": 3826,
+    "center_z": 8926,
+    "spawn_radius": 150,
+    "spawn_points": 14,
+    "heli_count": 9
+  },
+  {
+    "name": "Vyshnaya Dubrovka",
+    "slug": "vyshnaya-dubrovka",
+    "category": "Hamlet",
+    "center_x": 9979,
+    "center_z": 10380,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Vyshnoye",
+    "slug": "vyshnoye",
+    "category": "Village",
+    "center_x": 6537,
+    "center_z": 6094,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Vysotovo",
+    "slug": "vysotovo",
+    "category": "Village",
+    "center_x": 5690,
+    "center_z": 2539,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Zabolotye",
+    "slug": "zabolotye",
+    "category": "Hamlet",
+    "center_x": 1206,
+    "center_z": 10008,
+    "spawn_radius": 80,
+    "spawn_points": 10,
+    "heli_count": 9
+  },
+  {
+    "name": "Zaprudnoe",
+    "slug": "zaprudnoe",
+    "category": "Village",
+    "center_x": 4456,
+    "center_z": 13198,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  },
+  {
+    "name": "Zelenogorsk",
+    "slug": "zelenogorsk",
+    "category": "Large City",
+    "center_x": 2650,
+    "center_z": 5230,
+    "spawn_radius": 220,
+    "spawn_points": 18,
+    "heli_count": 9
+  },
+  {
+    "name": "Zvir",
+    "slug": "zvir",
+    "category": "Village",
+    "center_x": 465,
+    "center_z": 5252,
+    "spawn_radius": 110,
+    "spawn_points": 12,
+    "heli_count": 9
+  }
+]

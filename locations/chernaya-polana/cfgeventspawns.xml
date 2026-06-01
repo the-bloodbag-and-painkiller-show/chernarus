@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+	<event name="StaticHeliCrash">
+		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+		<pos x="11997.000000" z="13721.000000" a="-1" /><pos x="12252.000000" z="13901.000000" a="-1" /><pos x="12027.000000" z="13976.000000" a="-1" /><pos x="12222.000000" z="13661.000000" a="-1" /><pos x="11892.000000" z="13811.000000" a="-1" /><pos x="12057.000000" z="13601.000000" a="-1" /><pos x="12147.000000" z="13961.000000" a="-1" /><pos x="12282.000000" z="13766.000000" a="-1" /><pos x="11907.000000" z="13721.000000" a="-1" /></event>
+	<event name="Loot" />
+    <event name="InfectedVillage" />
+    <event name="InfectedSolitude" />
+    <event name="InfectedArmy" />
+    <event name="InfectedCity" />
+    <event name="InfectedMedic" />
+    <event name="InfectedPolice" />
+    <event name="InfectedFirefighter" />
+    <event name="InfectedPrisoner" />
+    </eventposdef>
