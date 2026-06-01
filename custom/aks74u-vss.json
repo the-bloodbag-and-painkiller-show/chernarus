@@ -666,6 +666,51 @@
                     "complexChildrenTypes": []
                 }
             ]
+        },
+        {
+            "slotName": "Hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "AKS74U",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "simpleChildrenTypes": [
+                        "AKS74U_Bttstck",
+                        "Mag_AK74_45Rnd"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "VSS",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "simpleChildrenTypes": [
+                        "PSO6Optic",
+                        "Battery9V",
+                        "Mag_Vikhr_30Rnd"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                }
+            ]
         }
     ],
     "discreteUnsortedItemSets": [
