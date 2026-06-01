@@ -448,18 +448,18 @@
         <nominal>2</nominal>
         <min>2</min>
         <max>2</max>
-        <lifetime>2100</lifetime>
-        <restock>0</restock>
-        <saferadius>0</saferadius>
-        <distanceradius>0</distanceradius>
-        <cleanupradius>0</cleanupradius>
+        <lifetime>300</lifetime>
+        <restock>1</restock>
+        <saferadius>10</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>10</cleanupradius>
         <secondary>InfectedArmy</secondary>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
+            <child lootmax="15" lootmin="15" max="3" min="1" type="Wreck_UH1Y"/>
         </children>
     </event>
 </events>
