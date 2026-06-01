@@ -137,7 +137,7 @@ def active_event_names(events_xml_text):
     out = set()
     for ev in root.findall("event"):
         active = ev.findtext("active", default="0").strip()
-        if active == "1":
+        if active == "1" and ev.get("name"):
             out.add(ev.get("name"))
     return out
 
@@ -238,7 +238,9 @@ def build_town(town, buildings, spawn_template, event_template, keep_names):
 
 
 def _xmllint_ok(path):
-    return subprocess.run(["xmllint", "--noout", str(path)]).returncode == 0
+    r = subprocess.run(["xmllint", "--noout", str(path)],
+                       capture_output=True, text=True)
+    return r.returncode == 0, r.stderr.strip()
 
 
 def main():
@@ -257,8 +259,9 @@ def main():
         (dest / "cfgplayerspawnpoints.xml").write_text(r["spawn_xml"])
         (dest / "cfgeventspawns.xml").write_text(r["event_xml"])
         for fname in ("cfgplayerspawnpoints.xml", "cfgeventspawns.xml"):
-            if not _xmllint_ok(dest / fname):
-                warnings.append(f"INVALID XML: {r['slug']}/{fname}")
+            ok, detail = _xmllint_ok(dest / fname)
+            if not ok:
+                warnings.append(f"INVALID XML: {r['slug']}/{fname} :: {detail}")
         if r["heli_count"] < HELI_COUNT:
             warnings.append(
                 f"{r['slug']}: only {r['heli_count']} heli spots "

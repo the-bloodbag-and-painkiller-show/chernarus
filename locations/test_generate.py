@@ -229,8 +229,8 @@ class TestRenderSpawns(unittest.TestCase):
             groups = bubbles.findall("group")
             self.assertEqual(len(groups), 1)
             self.assertEqual(len(groups[0].findall("pos")), 2)
-            self.assertEqual(sec.findtext("spawn_params/min_dist_player"), "20")
-            self.assertEqual(sec.findtext("spawn_params/max_dist_player"), "60")
+            self.assertEqual(sec.findtext("spawn_params/min_dist_player"), str(int(generate.MIN_DIST_PLAYER)))
+            self.assertEqual(sec.findtext("spawn_params/max_dist_player"), str(int(generate.MAX_DIST_PLAYER)))
 
     def test_starts_with_xml_declaration(self):
         out = generate.render_playerspawnpoints(SPAWN_TEMPLATE, [(1.0, 2.0)], "x")
