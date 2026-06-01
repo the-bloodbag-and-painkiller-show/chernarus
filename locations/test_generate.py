@@ -100,3 +100,21 @@ class TestCandidates(unittest.TestCase):
         cands = [(0.0, 0.0), (10.0, 0.0)]
         sel = generate.farthest_point_sample(cands, 5, (0.0, 0.0))
         self.assertEqual(len(sel), 2)
+
+
+class TestFindHeli(unittest.TestCase):
+    def test_open_field_returns_count(self):
+        positions, used_base = generate.find_heli_positions(
+            (0.0, 0.0), footprint_r=100.0, buildings=[], count=9)
+        self.assertEqual(len(positions), 9)
+        self.assertEqual(used_base, generate.DEFAULT_CLEARANCE)
+        for x, z in positions:
+            self.assertLessEqual(math.hypot(x, z), 100.0 + 1e-9)
+
+    def test_avoids_building(self):
+        # One building at origin -> every chosen point must clear 30m from it
+        positions, _ = generate.find_heli_positions(
+            (0.0, 0.0), footprint_r=100.0,
+            buildings=[(0.0, 0.0, "Land_Shed_W2")], count=9)
+        for x, z in positions:
+            self.assertGreaterEqual(math.hypot(x, z), 30.0)

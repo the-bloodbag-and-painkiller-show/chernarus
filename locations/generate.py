@@ -126,3 +126,25 @@ def farthest_point_sample(candidates, k, seed):
                 best_d, best = d, c
         chosen.append(best)
     return chosen
+
+
+def find_heli_positions(center, footprint_r, buildings, count=HELI_COUNT):
+    """Return (positions, used_base): open heli spots scattered in the footprint.
+
+    Relaxes the clearance base from DEFAULT_CLEARANCE down to CLEARANCE_FLOOR
+    until at least `count` open candidates exist. Large building types keep
+    their bumped clearance regardless of base (see required_clearance).
+    """
+    cands = grid_candidates(center, footprint_r)
+    # Only buildings near the footprint can matter (footprint + biggest bump).
+    reach = footprint_r + max([DEFAULT_CLEARANCE] + list(LARGE_BUILDING_CLEARANCE.values()))
+    nearby = [b for b in buildings if _dist2((b[0], b[1]), center) <= reach * reach]
+
+    base = DEFAULT_CLEARANCE
+    clear = []
+    while True:
+        clear = [c for c in cands if is_clear(c, nearby, base)]
+        if len(clear) >= count or base <= CLEARANCE_FLOOR:
+            break
+        base -= CLEARANCE_STEP
+    return farthest_point_sample(clear, count, center), base
