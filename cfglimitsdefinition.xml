@@ -4,6 +4,7 @@
     <tags />
     <usageflags>
         <usage name="Deathmatch"/>
+        <usage name="Heli"/>
     </usageflags>
     <valueflags />
 </lists>
