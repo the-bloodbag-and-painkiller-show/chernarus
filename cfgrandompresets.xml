@@ -56,6 +56,9 @@
 		<item name="Mag_VSS_10Rnd" chance="0.111" />
 		<item name="Mag_Vikhr_30Rnd" chance="0.111" />
 	</cargo>
+	<attachments chance="1.0" name="Battery">
+		<item name="Battery9V" chance="1.0" />
+	</attachments>
 	<!-- AK ATTACHMENTS -->
 	<attachments chance="1.0" name="AK_Buttstocks">
 		<item name="AK74_WoodBttstck" chance="0.1" />
@@ -98,13 +101,10 @@
 		<item name="AK_Suppressor" chance="1.0" />
 	</attachments>
 	<attachments chance="1.0" name="AK_Magazines">
-		<item name="Mag_AK74_45Rnd" chance="0.5" />
-		<item name="Mag_AK74_45Rnd" chance="0.5" />
+		<item name="Mag_AK74_45Rnd" chance="1.0" />
 	</attachments>
 	<attachments chance="1.0" name="AKM_Magazines">
-		<item name="Mag_AKM_30Rnd" chance="0.34" />
-		<item name="Mag_AKM_Drum75Rnd" chance="0.33" />
-		<item name="Mag_AKM_Palm30Rnd" chance="0.33" />
+		<item name="Mag_AKM_Drum75Rnd" chance="1.0" />
 	</attachments>
 	<attachments chance="1.0" name="AK101_Magazines">
 		<item name="Mag_AK101_30Rnd" chance="1.0" />
@@ -148,12 +148,7 @@
 		<item name="M4_Suppressor" chance="1.0" />
 	</attachments>
 	<attachments chance="1.0" name="M4_Magazines">
-		<item name="Mag_CMAG_10Rnd" chance="0.15" />
-		<item name="Mag_CMAG_20Rnd" chance="0.15" />
-		<item name="Mag_CMAG_30Rnd" chance="0.25" />
-		<item name="Mag_CMAG_40Rnd" chance="0.15" />
-		<item name="Mag_STANAG_30Rnd" chance="0.15" />
-		<item name="Mag_STANAG_60Rnd" chance="0.15" />
+		<item name="Mag_STANAG_60Rnd" chance="1.0" />
 	</attachments>
 	<!-- MOSIN ATTACHMENTS -->
 	<attachments chance="1.0" name="Mosin_Optics">

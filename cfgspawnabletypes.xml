@@ -20,6 +20,7 @@
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="Deagle">
 		<attachments chance="1.0">
@@ -55,6 +56,8 @@
 		<attachments chance="0.15">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="FNX_Arrow">
 		<attachments chance="1.0">
@@ -74,6 +77,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_Glock_15Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="Longhorn">
 		<attachments chance="1.00">
@@ -100,9 +104,9 @@
 			<item name="SportingOptic" chance="0.90" />
 			<item name="HuntingOptic" chance="0.10" />
 		</attachments>
+		<attachments preset="Battery" />
 		<attachments chance="1.0">
-			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
-			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+			<item name="Mag_Ruger1022_30Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<!-- SUBMACHINE GUNS -->
@@ -119,8 +123,7 @@
 		<attachments preset="MP5_Buttstocks" />
 		<attachments preset="MP5_Handguards" />
 		<attachments chance="1.0">
-			<item name="Mag_MP5_15Rnd" chance="0.5" />
-			<item name="Mag_MP5_30Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="1.0" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="MP5_Compensator" chance="1.00" />
@@ -128,11 +131,11 @@
 		<attachments chance="0.15">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="PM73Rak">
 		<attachments chance="1.0">
-			<item name="Mag_PM73_15Rnd" chance="0.80" />
-			<item name="Mag_PM73_25Rnd" chance="0.20" />
+			<item name="Mag_PM73_25Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="PP19">
@@ -144,6 +147,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_PP19_64Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="UMP45">
 		<attachments preset="M4_CQB_Optics" />
@@ -156,6 +160,8 @@
 		<attachments chance="0.10">
 			<item name="UniversalLight" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
+		<attachments preset="Battery" />
 	</type>
 	<!-- SNIPERS -->
 	<type name="ASVAL">
@@ -163,6 +169,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_Vikhr_30Rnd" chance="1.0" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="B95">
 		<attachments preset="Hunting_Optics" />
@@ -221,6 +228,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="Scout_Chernarus">
 		<attachments preset="M4_Sniper_Optics" />
@@ -228,6 +236,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="Scout_Livonia">
 		<attachments preset="M4_Sniper_Optics" />
@@ -235,6 +244,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="SKS">
 		<attachments preset="Mosin_Optics" />
@@ -253,10 +263,9 @@
 	<type name="VSS">
 		<attachments preset="AK_Sniper_Optics" />
 		<attachments chance="1.0">
-			<item name="Mag_VSS_10Rnd" chance="0.50" />
-			<item name="Mag_VAL_20Rnd" chance="0.35" />
-			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+			<item name="Mag_Vikhr_30Rnd" chance="1.0" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<!-- ASSAULT WEAPONS -->
 	<type name="AK74">
@@ -265,6 +274,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AK74_Black">
 		<attachments preset="AK_Buttstocks" />
@@ -272,6 +282,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AK74_Green">
 		<attachments preset="AK_Buttstocks" />
@@ -279,6 +290,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AKS74U">
 		<attachments preset="AK_Buttstocks" />
@@ -312,16 +324,16 @@
 	<type name="Vikhr">
 		<attachments preset="AK_CQB_Optics" />
 		<attachments chance="1.0">
-			<item name="Mag_VSS_10Rnd" chance="0.50" />
-			<item name="Mag_VAL_20Rnd" chance="0.35" />
-			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+			<item name="Mag_Vikhr_30Rnd" chance="1.0" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<!-- SHOTGUNS -->
 	<type name="Mp133Shotgun">
 		<attachments chance="0.30">
 			<item name="FNP45_MRDSOptic" chance="0.30" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="R12">
 		<attachments chance="0.30">
@@ -330,12 +342,13 @@
 		<attachments chance="0.30">
 			<item name="ReflexOptic" chance="0.30" />
 		</attachments>
+		<attachments preset="Battery" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="Saiga">
 		<attachments preset="Saiga_Buttstocks" />
 		<attachments chance="1.0">
-			<item name="Mag_Saiga_5Rnd" chance="0.60" />
-			<item name="Mag_Saiga_8Rnd" chance="0.40" />
+			<item name="Mag_Saiga_Drum20Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<!-- HELI CRASH WEAPONS -->
@@ -345,6 +358,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK101_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AK101_Black">
 		<attachments preset="AK_Buttstocks" />
@@ -352,6 +366,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK101_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AK101_Green">
 		<attachments preset="AK_Buttstocks" />
@@ -359,6 +374,7 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AK101_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="AKM">
 		<attachments preset="AK_Buttstocks" />
@@ -366,11 +382,13 @@
 		<attachments preset="AK_Optics" />
 		<attachments preset="AKM_Magazines" />
 		<attachments preset="AK_Suppressors" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="Aug">
 		<attachments preset="M4_CQB_Optics" />
 		<attachments preset="M4_Suppressors" />
 		<attachments preset="M4_Magazines" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="FAL">
 		<attachments preset="M4_CQB_Optics" />
@@ -378,13 +396,14 @@
 		<attachments chance="1.0">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="M14">
 		<attachments preset="M4_Sniper_Optics" />
 		<attachments chance="1.0">
-			<item name="Mag_M14_10Rnd" chance="0.70" />
-			<item name="Mag_M14_20Rnd" chance="0.30" />
+			<item name="Mag_M14_20Rnd" chance="1.0" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="M4A1">
 		<attachments preset="M4_Buttstocks" />
@@ -392,6 +411,7 @@
 		<attachments preset="M4_CQB_Optics" />
 		<attachments preset="M4_Suppressors" />
 		<attachments preset="M4_Magazines" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="M4A1_Black">
 		<attachments preset="M4_Buttstocks" />
@@ -399,6 +419,7 @@
 		<attachments preset="M4_CQB_Optics" />
 		<attachments preset="M4_Suppressors" />
 		<attachments preset="M4_Magazines" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="M4A1_Green">
 		<attachments preset="M4_Buttstocks" />
@@ -406,12 +427,14 @@
 		<attachments preset="M4_CQB_Optics" />
 		<attachments preset="M4_Suppressors" />
 		<attachments preset="M4_Magazines" />
+		<attachments preset="Battery" />
 	</type>
 	<type name="SV98">
 		<attachments preset="M4_Sniper_Optics" />
 		<attachments chance="1.0">
 			<item name="Mag_SV98_10Rnd" chance="1.0" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="SVD">
 		<attachments preset="AK_Sniper_Optics" />
@@ -419,6 +442,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="SVD_Wooden">
 		<attachments preset="AK_Sniper_Optics" />
@@ -426,6 +450,7 @@
 		<attachments chance="1.0">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="Battery" />
 	</type>
 	<type name="Winchester70">
 		<attachments preset="Hunting_Optics" />
