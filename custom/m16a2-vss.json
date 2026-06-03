@@ -16,9 +16,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Candycane_Red"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -33,6 +31,18 @@
                             "simpleChildrenTypes": [
                                 "Battery9V"
                             ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        },
+                        {
+                            "itemType": "Candycane_Red",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 5,
+                            "simpleChildrenTypes": [],
                             "simpleChildrenUseDefaultAttributes": false
                         }
                     ]
@@ -52,12 +62,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "M67Grenade",
-                        "RGD5Grenade",
-                        "FlashGrenade",
-                        "Grenade_ChemGas"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -82,12 +87,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "M67Grenade",
-                        "RGD5Grenade",
-                        "FlashGrenade",
-                        "Grenade_ChemGas"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -112,12 +112,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "M67Grenade",
-                        "RGD5Grenade",
-                        "FlashGrenade",
-                        "Grenade_ChemGas"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -142,12 +137,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "M67Grenade",
-                        "RGD5Grenade",
-                        "FlashGrenade",
-                        "Grenade_ChemGas"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -172,12 +162,7 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "M67Grenade",
-                        "RGD5Grenade",
-                        "FlashGrenade",
-                        "Grenade_ChemGas"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -704,27 +689,22 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Canteen"
-                    ],
+                    "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "HipPack_Green",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [
-                        "Canteen"
-                    ],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Canteen",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 4,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
                 }
             ]
         },
