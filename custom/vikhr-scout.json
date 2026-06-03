@@ -747,7 +747,8 @@
                     "simpleChildrenTypes": [
                         "MK4Optic_Black",
                         "Battery9V",
-                        "Mag_Scout_5Rnd"
+                        "Mag_Scout_5Rnd",
+                        "M4_Suppressor"
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
@@ -800,6 +801,26 @@
                 },
                 {
                     "itemType": "Mag_Vikhr_30Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_Vikhr_30Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_Scout_5Rnd",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
