@@ -4,6 +4,42 @@
     "characterTypes": [],
     "attachmentSlotItemSets": [
         {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "TortillaBag",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [
+                        "Candycane_Red"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "slotName": "Vest",
             "discreteItemSets": [
                 {
@@ -16,7 +52,12 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "M67Grenade",
+                        "RGD5Grenade",
+                        "FlashGrenade",
+                        "Grenade_ChemGas"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -41,7 +82,12 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "M67Grenade",
+                        "RGD5Grenade",
+                        "FlashGrenade",
+                        "Grenade_ChemGas"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -66,7 +112,12 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "M67Grenade",
+                        "RGD5Grenade",
+                        "FlashGrenade",
+                        "Grenade_ChemGas"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -91,7 +142,12 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "M67Grenade",
+                        "RGD5Grenade",
+                        "FlashGrenade",
+                        "Grenade_ChemGas"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -116,7 +172,12 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "M67Grenade",
+                        "RGD5Grenade",
+                        "FlashGrenade",
+                        "Grenade_ChemGas"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": [
                         {
@@ -754,16 +815,6 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Candycane_Red",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 3
                 },
                 {
                     "itemType": "Mag_FAMAS_25Rnd",
