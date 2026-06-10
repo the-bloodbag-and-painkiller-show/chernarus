@@ -1,0 +1,20 @@
+{
+    "Objects": [
+        {
+            "name": "Bonfire",
+            "pos": [
+                1542.0,
+                702.2136320000001,
+                9035.0
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.001,
+            "enableCEPersistency": 0,
+            "customString": ""
+        }
+    ]
+}
