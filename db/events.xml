@@ -466,9 +466,9 @@
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
-        <lifetime>180</lifetime>
-        <restock>0</restock>
-        <saferadius>200</saferadius>
+        <lifetime>900</lifetime>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>0</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
@@ -483,9 +483,9 @@
         <nominal>5</nominal>
         <min>5</min>
         <max>5</max>
-        <lifetime>180</lifetime>
-        <restock>0</restock>
-        <saferadius>200</saferadius>
+        <lifetime>600</lifetime>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>0</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
