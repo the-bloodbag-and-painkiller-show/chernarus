@@ -1,0 +1,4 @@
+[submodule "locations/generator"]
+	path = locations/generator
+	url = git@github.com:dayzkoth/locations.git
+	branch = main

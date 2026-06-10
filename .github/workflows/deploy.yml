@@ -46,5 +46,6 @@ jobs:
             vendor/**
             **/vendor/**
             **/*.md
+            locations/generator/**
             .gitignore
             .gitattributes
