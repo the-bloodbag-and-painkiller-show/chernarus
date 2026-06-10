@@ -31,7 +31,7 @@ Always validate edited XML/JSON before committing — a malformed file can preve
 
 ### Root config files
 - `init.c` — mission server logic (Enforce Script). `main()` runs economy init + a seasonal date reset (resets the world clock to Sep 20). `CustomMission::StartingEquipSetup` adds starting items (bandage, random chemlight, random fruit) and randomizes clothing health 0.45–0.65 on spawn.
-- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 12 `custom/*.json` loadouts the server picks from at spawn. `WorldsData.objectSpawnersArr` loads `./bonfire.json` — the per-location beacon staged into the mission root by the bot each rotation (see `locations/` below). `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
+- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 12 `custom/*.json` loadouts the server picks from at spawn. `WorldsData.objectSpawnersArr` loads `./custom/bonfire.json` — the per-location beacon staged into `custom/` by the bot each rotation (see `locations/` below). `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
 - `cfgeconomycore.xml` — CE root classes + global CE defaults/logging toggles.
 - `cfgspawnabletypes.xml` — per-item attachment/cargo/ammo spawn presets (e.g. which mag/optic a weapon spawns with).
 - `cfgrandompresets.xml` — named random cargo/attachment groups (e.g. `ZedCargo1`) referenced by spawnable types.
@@ -64,13 +64,13 @@ When adding items across all loadouts, prefer a Python script that loads each JS
 The bot rotates the active town every 30 min by swapping a per-location set of files into the mission root. These files are **generated**, not hand-written.
 - `locations/generator/` — a **git submodule** ([dayzkoth/generator](https://github.com/dayzkoth/generator)): the shared Python generator (has its own CLAUDE.md). After cloning this repo, run `git submodule update --init`.
 - `locations/index.json` — manifest of all 78 towns (`name`, `slug`, `category`, center, spawn radius/points, heli count); the bot reads it to know the rotation pool.
-- `locations/<slug>/` — per-town drop-ins: `cfgplayerspawnpoints.xml` (a spawn ring around the town), `cfgeventspawns.xml` (heli crashes relocated to open ground, dead events stripped), and `bonfire.json` (a tiny `Bonfire` 400 m above the town center, loaded via `cfggameplay.json`'s `objectSpawnersArr`).
+- `locations/<slug>/` — per-town drop-ins: `cfgplayerspawnpoints.xml` (a spawn ring around the town), `cfgeventspawns.xml` (heli crashes relocated to open ground, dead events stripped), and `bonfire.json` (a tiny `Bonfire` 400 m above the town center, loaded via `cfggameplay.json`'s `objectSpawnersArr`), and `wolf_territories.xml` / `bear_territories.xml` (single-zone wolf/bear territories at the town center, r=400 m / 600 m).
 
 Regenerate after changing an input (`docs/town-centers.json`, `mapgrouppos.xml`, the template `cfgplayerspawnpoints.xml`/`cfgeventspawns.xml`, or `db/events.xml`):
 ```bash
 python3 locations/generator/generate.py    # writes locations/<slug>/* + index.json
 ```
-The generated output is committed **here** (and FTP-deployed); the generator *code* lives in the submodule. Don't hand-edit `locations/<slug>/*` — change the generator or its inputs and regenerate. The bot downloads these from the server and copies the active town's three files (`cfgplayerspawnpoints.xml`, `cfgeventspawns.xml`, `bonfire.json`) into the mission root each rotation.
+The generated output is committed **here** (and FTP-deployed); the generator *code* lives in the submodule. Don't hand-edit `locations/<slug>/*` — change the generator or its inputs and regenerate. The bot downloads these and stages the active town's five files each rotation: `cfgplayerspawnpoints.xml` + `cfgeventspawns.xml` → mission root, `bonfire.json` → `custom/`, `wolf_territories.xml` + `bear_territories.xml` → `env/`.
 
 ## Conventions
 - Indentation in `custom/*.json` is 4 spaces; root XML files use tabs in some files and spaces in others — match the file you're editing.
