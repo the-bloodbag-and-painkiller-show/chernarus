@@ -31,7 +31,7 @@ Always validate edited XML/JSON before committing — a malformed file can preve
 
 ### Root config files
 - `init.c` — mission server logic (Enforce Script). `main()` runs economy init + a seasonal date reset (resets the world clock to Sep 20). `CustomMission::StartingEquipSetup` adds starting items (bandage, random chemlight, random fruit) and randomizes clothing health 0.45–0.65 on spawn.
-- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 36 `custom/*.json` loadouts the server picks from at spawn. `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
+- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 12 `custom/*.json` loadouts the server picks from at spawn. `WorldsData.objectSpawnersArr` loads `./bonfire.json` — the per-location beacon staged into the mission root by the bot each rotation (see `locations/` below). `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
 - `cfgeconomycore.xml` — CE root classes + global CE defaults/logging toggles.
 - `cfgspawnabletypes.xml` — per-item attachment/cargo/ammo spawn presets (e.g. which mag/optic a weapon spawns with).
 - `cfgrandompresets.xml` — named random cargo/attachment groups (e.g. `ZedCargo1`) referenced by spawnable types.
@@ -48,8 +48,8 @@ Always validate edited XML/JSON before committing — a malformed file can preve
 - `events.xml` — dynamic event definitions. `messages.xml` — server broadcast/shutdown messages.
 - `types.xml.bak` — a backup; do not deploy/rely on it.
 
-### `custom/` — spawn loadouts (36 files)
-Each file is one full-gear spawn preset, named `<assault>-<sniper>.json` (e.g. `m16a2-vss.json` = M16A2 assault + VSS sniper). Assault weapons: `ak74`, `aks74u`, `augshort`, `famas`, `m16a2`, `vikhr`. Snipers: `asval`, `cz527`, `cz550`, `scout`, `ssg82`, `vss` → 6×6 = 36 combinations. All 36 are listed in `cfggameplay.json`.
+### `custom/` — spawn loadouts (12 files)
+Each file is one full-gear spawn preset, named `<assault>-<sniper>.json` (e.g. `m16a2-scout.json` = M16A2 assault + Scout sniper). Assault weapons: `ak74`, `famas`, `m16a2`, `vikhr`. Snipers: `cz527`, `cz550`, `scout` → 4×3 = 12 combinations. All 12 are listed in `cfggameplay.json`'s `spawnGearPresetFiles`.
 
 Structure of each loadout:
 - `attachmentSlotItemSets[]` — one entry per equipment slot (`Vest`, `Headgear`, `Gloves`, `Body`, `Legs`, `Feet`, `Eyewear`, `Mask`, `Hips`, `Hands`, `shoulderL`). Each slot's `discreteItemSets[]` lists the item variants (the engine picks one by `spawnWeight`).
@@ -59,6 +59,18 @@ Structure of each loadout:
 When adding items across all loadouts, prefer a Python script that loads each JSON, mutates it, and writes back with `json.dumps(d, indent=4) + "\n"` — this matches the existing 4-space style and trailing newline. Copy item identifiers (e.g. magazine names) exactly from the file's own weapon `simpleChildrenTypes`, since they differ per weapon (note inconsistent casing: `Mag_CZ550_10rnd` vs `Mag_Scout_5Rnd`).
 
 ### `env/` — animal/zombie territory definitions (referenced by `cfgenvironment.xml`).
+
+### `locations/` — per-town spawn rotation configs
+The bot rotates the active town every 30 min by swapping a per-location set of files into the mission root. These files are **generated**, not hand-written.
+- `locations/generator/` — a **git submodule** ([dayzkoth/generator](https://github.com/dayzkoth/generator)): the shared Python generator (has its own CLAUDE.md). After cloning this repo, run `git submodule update --init`.
+- `locations/index.json` — manifest of all 78 towns (`name`, `slug`, `category`, center, spawn radius/points, heli count); the bot reads it to know the rotation pool.
+- `locations/<slug>/` — per-town drop-ins: `cfgplayerspawnpoints.xml` (a spawn ring around the town), `cfgeventspawns.xml` (heli crashes relocated to open ground, dead events stripped), and `bonfire.json` (a tiny `Bonfire` 400 m above the town center, loaded via `cfggameplay.json`'s `objectSpawnersArr`).
+
+Regenerate after changing an input (`docs/town-centers.json`, `mapgrouppos.xml`, the template `cfgplayerspawnpoints.xml`/`cfgeventspawns.xml`, or `db/events.xml`):
+```bash
+python3 locations/generator/generate.py    # writes locations/<slug>/* + index.json
+```
+The generated output is committed **here** (and FTP-deployed); the generator *code* lives in the submodule. Don't hand-edit `locations/<slug>/*` — change the generator or its inputs and regenerate. The bot downloads these from the server and copies the active town's three files (`cfgplayerspawnpoints.xml`, `cfgeventspawns.xml`, `bonfire.json`) into the mission root each rotation.
 
 ## Conventions
 - Indentation in `custom/*.json` is 4 spaces; root XML files use tabs in some files and spaces in others — match the file you're editing.
