@@ -61,10 +61,10 @@ When adding items across all loadouts, prefer a Python script that loads each JS
 ### `env/` — animal/zombie territory definitions (referenced by `cfgenvironment.xml`).
 
 ### `locations/` — per-town spawn rotation configs
-The bot rotates the active town every 30 min by swapping a per-location set of files into the mission root. These files are **generated**, not hand-written.
+The bot rotates the active town every 30 min by staging a per-location set of files into the mission (across the mission root, `custom/`, and `env/` — see the rotation note below). These files are **generated**, not hand-written.
 - `locations/generator/` — a **git submodule** ([dayzkoth/generator](https://github.com/dayzkoth/generator)): the shared Python generator (has its own CLAUDE.md). After cloning this repo, run `git submodule update --init`.
 - `locations/index.json` — manifest of all 78 towns (`name`, `slug`, `category`, center, spawn radius/points, heli count); the bot reads it to know the rotation pool.
-- `locations/<slug>/` — per-town drop-ins: `cfgplayerspawnpoints.xml` (a spawn ring around the town), `cfgeventspawns.xml` (heli crashes relocated to open ground, dead events stripped), and `bonfire.json` (a tiny `Bonfire` 400 m above the town center, loaded via `cfggameplay.json`'s `objectSpawnersArr`), and `wolf_territories.xml` / `bear_territories.xml` (single-zone wolf/bear territories at the town center, r=400 m / 600 m).
+- `locations/<slug>/` — per-town drop-ins: `cfgplayerspawnpoints.xml` (a spawn ring around the town), `cfgeventspawns.xml` (heli crashes relocated to open ground, dead events stripped), `bonfire.json` (a tiny `Bonfire` 400 m above the town center, loaded via `cfggameplay.json`'s `objectSpawnersArr`), and `wolf_territories.xml` / `bear_territories.xml` (single-zone wolf/bear territories at the town center, r=400 m / 600 m).
 
 Regenerate after changing an input (`docs/town-centers.json`, `mapgrouppos.xml`, the template `cfgplayerspawnpoints.xml`/`cfgeventspawns.xml`, or `db/events.xml`):
 ```bash
