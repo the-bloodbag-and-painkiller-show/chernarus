@@ -68,7 +68,7 @@
 	"WorldsData":
 	{
 		"lightingConfig": 0,
-		"objectSpawnersArr": ["./custom/bonfire.json"],
+		"objectSpawnersArr": [],
 		"environmentMinTemps": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
 		"environmentMaxTemps": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
 		"wetnessWeightModifiers": [1.0, 1.0, 1.0, 1.0, 1.0]
