@@ -10,18 +10,9 @@
     "PlayerData":
 	{
 		"spawnGearPresetFiles": [
-			"./custom/ak74-cz527.json",
 			"./custom/ak74-cz550.json",
-			"./custom/ak74-scout.json",
-			"./custom/famas-cz527.json",
-			"./custom/famas-cz550.json",
-			"./custom/famas-scout.json",
-			"./custom/m16a2-cz527.json",
 			"./custom/m16a2-cz550.json",
-			"./custom/m16a2-scout.json",
-			"./custom/vikhr-cz527.json",
-			"./custom/vikhr-cz550.json",
-			"./custom/vikhr-scout.json"
+			"./custom/vikhr-cz550.json"
 		],
 		"disablePersonalLight": false,
 		"StaminaData":
