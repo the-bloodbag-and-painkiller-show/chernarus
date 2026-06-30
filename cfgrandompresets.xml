@@ -1,60 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-	<cargo chance="0.5" name="ZedCargo1">
-		<item name="Mag_1911_7Rnd" chance="0.1" />
-		<item name="Mag_AK101_30Rnd" chance="0.1" />
-		<item name="Mag_AK74_30Rnd" chance="0.1" />
-		<item name="Mag_AK74_45Rnd" chance="0.1" />
-		<item name="Mag_AKM_30Rnd" chance="0.1" />
-		<item name="Mag_AKM_Drum75Rnd" chance="0.1" />
-		<item name="Mag_AKM_Palm30Rnd" chance="0.1" />
-		<item name="Mag_Aug_30Rnd" chance="0.1" />
-		<item name="Mag_CMAG_10Rnd" chance="0.1" />
-		<item name="Mag_CMAG_20Rnd" chance="0.1" />
+	<cargo chance="1.0" name="ZedCargo1">
+		<item name="Mag_AK101_30Rnd" chance="0.5" />
+		<item name="Mag_AK74_45Rnd" chance="0.5" />
 	</cargo>
-	<cargo chance="0.5" name="ZedCargo2">
-		<item name="Mag_CMAG_30Rnd" chance="0.112" />
-		<item name="Mag_CMAG_40Rnd" chance="0.111" />
-		<item name="Mag_CZ527_5rnd" chance="0.111" />
-		<item name="Mag_CZ550_10Rnd" chance="0.111" />
-		<item name="Mag_CZ61_20Rnd" chance="0.111" />
-		<item name="Mag_CZ75_15Rnd" chance="0.111" />
-		<item name="Mag_Deagle_9rnd" chance="0.111" />
-		<item name="Mag_FAL_20Rnd" chance="0.111" />
-		<item name="Mag_FAMAS_25Rnd" chance="0.111" />
+	<cargo chance="1.0" name="ZedCargo2">
+		<item name="Mag_CZ550_10Rnd" chance="0.5" />
+		<item name="Mag_FAL_20Rnd" chance="0.5" />
 	</cargo>
-	<cargo chance="0.5" name="ZedCargo3">
-		<item name="Mag_FNX45_15Rnd" chance="0.112" />
-		<item name="Mag_Glock_15Rnd" chance="0.111" />
-		<item name="Mag_IJ70_8Rnd" chance="0.111" />
-		<item name="Mag_M14_10Rnd" chance="0.111" />
-		<item name="Mag_M14_20Rnd" chance="0.111" />
-		<item name="Mag_MKII_10Rnd" chance="0.111" />
-		<item name="Mag_MP5_15Rnd" chance="0.111" />
-		<item name="Mag_MP5_30Rnd" chance="0.111" />
-		<item name="Mag_P1_8Rnd" chance="0.111" />
+	<cargo chance="1.0" name="ZedCargo3">
+		<item name="Mag_M14_20Rnd" chance="0.5" />
+		<item name="Mag_AKM_Drum75Rnd" chance="0.5" />
 	</cargo>
-	<cargo chance="0.5" name="ZedCargo4">
-		<item name="Mag_PM73_15Rnd" chance="0.112" />
-		<item name="Mag_PM73_25Rnd" chance="0.111" />
-		<item name="Mag_PP19_64Rnd" chance="0.111" />
-		<item name="Mag_Ruger1022_15Rnd" chance="0.111" />
-		<item name="Mag_Ruger1022_30Rnd" chance="0.111" />
-		<item name="Mag_SSG82_5rnd" chance="0.111" />
-		<item name="Mag_STANAG_30Rnd" chance="0.111" />
-		<item name="Mag_STANAG_60Rnd" chance="0.111" />
-		<item name="Mag_SV98_10Rnd" chance="0.111" />
+	<cargo chance="1.0" name="ZedCargo4">
+		<item name="Mag_STANAG_60Rnd" chance="0.5" />
+		<item name="Mag_SV98_10Rnd" chance="0.5" />
 	</cargo>
-	<cargo chance="0.5" name="ZedCargo5">
-		<item name="Mag_SVD_10Rnd" chance="0.112" />
-		<item name="Mag_Saiga_5Rnd" chance="0.111" />
-		<item name="Mag_Saiga_8Rnd" chance="0.111" />
-		<item name="Mag_Saiga_Drum20Rnd" chance="0.111" />
-		<item name="Mag_Scout_5Rnd" chance="0.111" />
-		<item name="Mag_UMP_25Rnd" chance="0.111" />
-		<item name="Mag_VAL_20Rnd" chance="0.111" />
-		<item name="Mag_VSS_10Rnd" chance="0.111" />
-		<item name="Mag_Vikhr_30Rnd" chance="0.111" />
+	<cargo chance="1.0" name="ZedCargo5">
+		<item name="Mag_SVD_10Rnd" chance="0.5" />
+		<item name="Mag_Vikhr_30Rnd" chance="0.5" />
+	</cargo>
+	<cargo chance="0.1" name="ZedGas">
+    	<item name="Grenade_ChemGas" chance="1.0" />
 	</cargo>
 	<attachments chance="1.0" name="Battery">
 		<item name="Battery9V" chance="1.0" />
