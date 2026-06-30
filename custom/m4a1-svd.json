@@ -712,7 +712,7 @@
             "slotName": "Hands",
             "discreteItemSets": [
                 {
-                    "itemType": "Vikhr",
+                    "itemType": "M4A1",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -722,9 +722,11 @@
                     },
                     "quickBarSlot": 1,
                     "simpleChildrenTypes": [
-                        "KobraOptic",
+                        "M4_MPBttstck",
+                        "M4_MPHndgrd",
+                        "M68Optic",
                         "Battery9V",
-                        "Mag_Vikhr_30Rnd"
+                        "Mag_STANAG_60Rnd"
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
@@ -735,7 +737,7 @@
             "slotName": "shoulderL",
             "discreteItemSets": [
                 {
-                    "itemType": "Scout",
+                    "itemType": "SVD",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -745,10 +747,10 @@
                     },
                     "quickBarSlot": 2,
                     "simpleChildrenTypes": [
-                        "MK4Optic_Black",
+                        "PSO6Optic",
+                        "AK_Suppressor",
                         "Battery9V",
-                        "Mag_Scout_5Rnd",
-                        "M4_Suppressor"
+                        "Mag_SVD_10Rnd"
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
@@ -800,7 +802,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Mag_Vikhr_30Rnd",
+                    "itemType": "Mag_STANAG_60Rnd",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -810,27 +812,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Mag_Vikhr_30Rnd",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Mag_Scout_5Rnd",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Mag_Scout_5Rnd",
+                    "itemType": "Mag_SVD_10Rnd",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,

@@ -712,7 +712,7 @@
             "slotName": "Hands",
             "discreteItemSets": [
                 {
-                    "itemType": "M16A2",
+                    "itemType": "AK101",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -722,7 +722,11 @@
                     },
                     "quickBarSlot": 1,
                     "simpleChildrenTypes": [
-                        "Mag_STANAG_60Rnd"
+                        "AK_PlasticBttstck",
+                        "AK_PlasticHndgrd",
+                        "KashtanOptic",
+                        "Battery9V",
+                        "Mag_AK101_30Rnd"
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
@@ -733,7 +737,7 @@
             "slotName": "shoulderL",
             "discreteItemSets": [
                 {
-                    "itemType": "Scout",
+                    "itemType": "SVD",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -743,10 +747,10 @@
                     },
                     "quickBarSlot": 2,
                     "simpleChildrenTypes": [
-                        "MK4Optic_Black",
+                        "PSO6Optic",
+                        "AK_Suppressor",
                         "Battery9V",
-                        "Mag_Scout_5Rnd",
-                        "M4_Suppressor"
+                        "Mag_SVD_10Rnd"
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
@@ -798,7 +802,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Mag_STANAG_60Rnd",
+                    "itemType": "Mag_AK101_30Rnd",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -808,17 +812,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Mag_Scout_5Rnd",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Mag_Scout_5Rnd",
+                    "itemType": "Mag_SVD_10Rnd",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,

@@ -31,7 +31,7 @@ Always validate edited XML/JSON before committing — a malformed file can preve
 
 ### Root config files
 - `init.c` — mission server logic (Enforce Script). `main()` runs economy init + a seasonal date reset (resets the world clock to Sep 20). `CustomMission::StartingEquipSetup` adds starting items (bandage, random chemlight, random fruit) and randomizes clothing health 0.45–0.65 on spawn.
-- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 12 `custom/*.json` loadouts the server picks from at spawn. `WorldsData.objectSpawnersArr` is empty (the per-location bonfire beacon was removed — its particle/light effects caused visual lag). `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
+- `cfggameplay.json` — gameplay tuning. `PlayerData.spawnGearPresetFiles` is the list of all 32 `custom/*.json` loadouts the server picks from at spawn. `WorldsData.objectSpawnersArr` is empty (the per-location bonfire beacon was removed — its particle/light effects caused visual lag). `disableRespawnDialog`/`disableRespawnInUnconsciousness` are on (deathmatch flow).
 - `cfgeconomycore.xml` — CE root classes + global CE defaults/logging toggles.
 - `cfgspawnabletypes.xml` — per-item attachment/cargo/ammo spawn presets (e.g. which mag/optic a weapon spawns with).
 - `cfgrandompresets.xml` — named random cargo/attachment groups (e.g. `ZedCargo1`) referenced by spawnable types.
@@ -48,15 +48,15 @@ Always validate edited XML/JSON before committing — a malformed file can preve
 - `events.xml` — dynamic event definitions. `messages.xml` — server broadcast/shutdown messages.
 - `types.xml.bak` — a backup; do not deploy/rely on it.
 
-### `custom/` — spawn loadouts (12 files)
-Each file is one full-gear spawn preset, named `<assault>-<sniper>.json` (e.g. `m16a2-scout.json` = M16A2 assault + Scout sniper). Assault weapons: `ak74`, `famas`, `m16a2`, `vikhr`. Snipers: `cz527`, `cz550`, `scout` → 4×3 = 12 combinations. All 12 are listed in `cfggameplay.json`'s `spawnGearPresetFiles`.
+### `custom/` — spawn loadouts (32 files)
+Each file is one full-gear spawn preset, named `<assault>-<sniper>.json` (e.g. `m16a2-svd.json` = M16A2 assault + SVD sniper). Assault weapons: `ak74`, `ak101`, `aug`, `fal`, `kam` (the AKM item), `m16a2`, `m4a1`, `vikhr`. Snipers: `cz550`, `m14`, `sv98`, `svd` → 8×4 = 32 combinations. All 32 are listed in `cfggameplay.json`'s `spawnGearPresetFiles`. Each weapon spawns fully attached (optic + magazine, plus stock/handguard/suppressor where applicable) via its `simpleChildrenTypes`; the assault weapon sits in the `Hands` slot and the sniper in `shoulderL`, and the `Cargo1` set carries one spare magazine for each.
 
 Structure of each loadout:
 - `attachmentSlotItemSets[]` — one entry per equipment slot (`Vest`, `Headgear`, `Gloves`, `Body`, `Legs`, `Feet`, `Eyewear`, `Mask`, `Hips`, `Hands`, `shoulderL`). Each slot's `discreteItemSets[]` lists the item variants (the engine picks one by `spawnWeight`).
   - The **assault weapon** is in the `Hands` slot; the **sniper** is in `shoulderL`. A weapon's attachments + magazine are listed as strings in its `simpleChildrenTypes` (e.g. `"Mag_AK74_45Rnd"`).
 - `discreteUnsortedItemSets[]` — loose inventory cargo. Contains a single `Cargo1` set whose `complexChildrenTypes[]` holds the actual items (bandages, epinephrine, spare magazines, etc.). Each item object is `{ itemType, attributes{healthMin/Max,quantityMin/Max}, quickBarSlot }`.
 
-When adding items across all loadouts, prefer a Python script that loads each JSON, mutates it, and writes back with `json.dumps(d, indent=4) + "\n"` — this matches the existing 4-space style and trailing newline. Copy item identifiers (e.g. magazine names) exactly from the file's own weapon `simpleChildrenTypes`, since they differ per weapon (note inconsistent casing: `Mag_CZ550_10rnd` vs `Mag_Scout_5Rnd`).
+When adding items across all loadouts, prefer a Python script that loads each JSON, mutates it, and writes back with `json.dumps(d, indent=4) + "\n"` — this matches the existing 4-space style and trailing newline. Copy item identifiers (e.g. magazine names) exactly from the file's own weapon `simpleChildrenTypes`, since they differ per weapon (note inconsistent casing: `Mag_CZ550_10rnd` vs `Mag_SVD_10Rnd`).
 
 ### `env/` — animal/zombie territory definitions (referenced by `cfgenvironment.xml`).
 
