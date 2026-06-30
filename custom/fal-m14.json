@@ -7,7 +7,130 @@
             "slotName": "Back",
             "discreteItemSets": [
                 {
-                    "itemType": "TortillaBag",
+                    "itemType": "MountainBag_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        },
+                        {
+                            "itemType": "Candycane_Red",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 5,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                },
+                {
+                    "itemType": "MountainBag_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        },
+                        {
+                            "itemType": "Candycane_Red",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 5,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                },
+                {
+                    "itemType": "MountainBag_Orange",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        },
+                        {
+                            "itemType": "Candycane_Red",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 5,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                },
+                {
+                    "itemType": "MountainBag_Red",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -50,10 +173,10 @@
             ]
         },
         {
-            "slotName": "Vest",
+            "slotName": "Headgear",
             "discreteItemSets": [
                 {
-                    "itemType": "PlateCarrierVest",
+                    "itemType": "BeanieHat_Beige",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -64,21 +187,10 @@
                     "quickBarSlot": -1,
                     "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PlateCarrierPouches",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1
-                        }
-                    ]
+                    "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "PlateCarrierVest_Black",
+                    "itemType": "BeanieHat_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -89,21 +201,10 @@
                     "quickBarSlot": -1,
                     "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PlateCarrierPouches_Black",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1
-                        }
-                    ]
+                    "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "PlateCarrierVest_Camo",
+                    "itemType": "BeanieHat_Blue",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -114,21 +215,10 @@
                     "quickBarSlot": -1,
                     "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PlateCarrierPouches_Camo",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1
-                        }
-                    ]
+                    "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "PlateCarrierVest_Green",
+                    "itemType": "BeanieHat_Brown",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -139,21 +229,10 @@
                     "quickBarSlot": -1,
                     "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PlateCarrierPouches_Green",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1
-                        }
-                    ]
+                    "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "PlateCarrierVest_Winter",
+                    "itemType": "BeanieHat_Pink",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -164,26 +243,57 @@
                     "quickBarSlot": -1,
                     "simpleChildrenTypes": [],
                     "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": [
-                        {
-                            "itemType": "PlateCarrierPouches_Winter",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": -1
-                        }
-                    ]
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BeanieHat_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BeanieHat_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "BeanieHat_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 }
             ]
         },
         {
-            "slotName": "Headgear",
+            "slotName": "Armband",
             "discreteItemSets": [
                 {
-                    "itemType": "BallisticHelmet_BDU",
+                    "itemType": "Armband_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -197,7 +307,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Black",
+                    "itemType": "Armband_Blue",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -211,7 +321,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Desert",
+                    "itemType": "Armband_Green",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -225,7 +335,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Green",
+                    "itemType": "Armband_Orange",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -239,7 +349,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Navy",
+                    "itemType": "Armband_Pink",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -253,7 +363,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_UN",
+                    "itemType": "Armband_Red",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -267,7 +377,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Winter",
+                    "itemType": "Armband_Yellow",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -281,7 +391,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BallisticHelmet_Woodland",
+                    "itemType": "Armband_White",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -300,7 +410,7 @@
             "slotName": "Gloves",
             "discreteItemSets": [
                 {
-                    "itemType": "TacticalGloves_Beige",
+                    "itemType": "WoolGlovesFingerless_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -314,7 +424,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "TacticalGloves_Black",
+                    "itemType": "WoolGlovesFingerless_Green",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -328,7 +438,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "TacticalGloves_Green",
+                    "itemType": "WoolGlovesFingerless_Tan",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -347,7 +457,7 @@
             "slotName": "Body",
             "discreteItemSets": [
                 {
-                    "itemType": "TacticalShirt_Black",
+                    "itemType": "HikingJacket_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -361,7 +471,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "TacticalShirt_Grey",
+                    "itemType": "HikingJacket_Blue",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -375,7 +485,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "TacticalShirt_Olive",
+                    "itemType": "HikingJacket_Green",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -389,7 +499,119 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "TacticalShirt_Tan",
+                    "itemType": "HikingJacket_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Orange",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Violet",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "QuiltedJacket_Yellow",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -483,7 +705,7 @@
             "slotName": "Feet",
             "discreteItemSets": [
                 {
-                    "itemType": "MilitaryBoots_Beige",
+                    "itemType": "HikingBoots_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -497,49 +719,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "MilitaryBoots_Black",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "MilitaryBoots_Bluerock",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "MilitaryBoots_Brown",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
-                    "simpleChildrenUseDefaultAttributes": false,
-                    "complexChildrenTypes": []
-                },
-                {
-                    "itemType": "MilitaryBoots_Redpunk",
+                    "itemType": "HikingBoots_Brown",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -558,7 +738,7 @@
             "slotName": "Eyewear",
             "discreteItemSets": [
                 {
-                    "itemType": "TacticalGoggles",
+                    "itemType": "Headtorch_Black",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -567,7 +747,25 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "Battery9V"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "Headtorch_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [
+                        "Battery9V"
+                    ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 }
@@ -577,7 +775,7 @@
             "slotName": "Mask",
             "discreteItemSets": [
                 {
-                    "itemType": "BalaclavaMask_BDU",
+                    "itemType": "Bandana_Blackpattern",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -591,7 +789,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Beige",
+                    "itemType": "Bandana_Blue",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -605,7 +803,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Black",
+                    "itemType": "Bandana_Camopattern",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -619,7 +817,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Blackskull",
+                    "itemType": "Bandana_Greenpattern",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -633,7 +831,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Chain",
+                    "itemType": "Bandana_Pink",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -647,7 +845,7 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Green",
+                    "itemType": "Bandana_Polkapattern",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -661,7 +859,21 @@
                     "complexChildrenTypes": []
                 },
                 {
-                    "itemType": "BalaclavaMask_Pig",
+                    "itemType": "Bandana_Redpattern",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "Bandana_Yellow",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
