@@ -1045,7 +1045,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 6
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "Handcuffs",
@@ -1065,7 +1065,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 7
+                    "quickBarSlot": 6
                 }
             ]
         }
