@@ -577,7 +577,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="AK101_Black">
         <nominal>100</nominal>
@@ -588,7 +588,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="AK101_Green">
         <nominal>100</nominal>
@@ -599,7 +599,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="AKM">
         <nominal>100</nominal>
@@ -610,7 +610,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="Aug">
         <nominal>100</nominal>
@@ -621,7 +621,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="FAL">
         <nominal>100</nominal>
@@ -632,7 +632,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="M14">
         <nominal>100</nominal>
@@ -643,7 +643,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="M4A1">
         <nominal>100</nominal>
@@ -654,7 +654,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="M4A1_Black">
         <nominal>100</nominal>
@@ -665,7 +665,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="M4A1_Green">
         <nominal>100</nominal>
@@ -676,7 +676,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="SV98">
         <nominal>100</nominal>
@@ -687,7 +687,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="SVD">
         <nominal>100</nominal>
@@ -698,7 +698,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="SVD_Wooden">
         <nominal>100</nominal>
@@ -709,7 +709,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="Winchester70">
         <nominal>100</nominal>
@@ -720,7 +720,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="Winchester70_Black">
         <nominal>100</nominal>
@@ -731,7 +731,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <type name="Winchester70_Green">
         <nominal>100</nominal>
@@ -742,7 +742,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <usage name="Heli"/>
+        <usage name="Deathmatch"/>
     </type>
     <!-- AMMO -->
     <type name="AmmoBox_00buck_10rnd">

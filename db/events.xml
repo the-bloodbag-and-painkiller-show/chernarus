@@ -5,10 +5,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -28,10 +28,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -53,10 +53,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -112,10 +112,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -140,10 +140,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -158,10 +158,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -200,10 +200,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -229,10 +229,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -246,10 +246,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -266,10 +266,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -284,10 +284,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -301,10 +301,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -318,10 +318,10 @@
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -335,10 +335,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -370,10 +370,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -410,10 +410,10 @@
         <min>25</min>
         <max>100</max>
         <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
+        <restock>1</restock>
+        <saferadius>50</saferadius>
         <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <cleanupradius>50</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -457,7 +457,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="15" lootmin="15" max="3" min="1" type="Wreck_UH1Y"/>
         </children>
