@@ -848,6 +848,26 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 6
+                },
+                {
+                    "itemType": "Handcuffs",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "M67Grenade",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 7
                 }
             ]
         }
