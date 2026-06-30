@@ -41,7 +41,15 @@
 			"./custom/fal-cz550.json",
 			"./custom/fal-svd.json",
 			"./custom/fal-sv98.json",
-			"./custom/fal-m14.json"
+			"./custom/fal-m14.json",
+			"./custom/asval-cz550.json",
+			"./custom/asval-svd.json",
+			"./custom/asval-sv98.json",
+			"./custom/asval-m14.json",
+			"./custom/vss-cz550.json",
+			"./custom/vss-svd.json",
+			"./custom/vss-sv98.json",
+			"./custom/vss-m14.json"
 		],
 		"disablePersonalLight": false,
 		"StaminaData":
