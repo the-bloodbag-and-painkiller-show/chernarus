@@ -21,7 +21,8 @@
 		<item name="Mag_Vikhr_30Rnd" chance="0.5" />
 	</cargo>
 	<cargo chance="0.1" name="ZedGas">
-    	<item name="Grenade_ChemGas" chance="1.0" />
+    	<item name="Ammo_40mm_Chemgas" chance="0.5" />
+    	<item name="Ammo_40mm_Explosive" chance="0.5" />
 	</cargo>
 	<attachments chance="1.0" name="Battery">
 		<item name="Battery9V" chance="1.0" />

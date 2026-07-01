@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
+	<type name="Ammo_40mm_Chemgas">
+		<damage min="1.0" max="1.0" />
+	</type>
+	<type name="Ammo_40mm_Explosive">
+		<damage min="1.0" max="1.0" />
+	</type>
 <!-- WEAPONS -->
 	<!-- PISTOLS -->
 	<type name="Colt1911">
