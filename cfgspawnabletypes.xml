@@ -713,437 +713,546 @@
 	<type name="ZmbM_CitizenASkinny_Blue">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Brown">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Grey">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Red">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Blue">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Green">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Red">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ClerkFat_Brown">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ClerkFat_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ClerkFat_Khaki">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ClerkFat_White">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Blue">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Olive">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Beige">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Black">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Green">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_DoctorFat">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_DoctorFat_Winter">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_eastSoldier_Heavy_Navy">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_eastSoldier_normal_Navy">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FarmerFat_Beige">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FarmerFat_Blue">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FarmerFat_Brown">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FarmerFat_Green">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FirefighterNormal">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FishermanOld_Blue">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FishermanOld_Green">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FishermanOld_Grey">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_FishermanOld_Red">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Gamedev_Black">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Green">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HandymanNormal_White">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HeavyIndustryWorker">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Black">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Green">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Red">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Blue">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Green">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Yellow">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HunterOld_Autumn">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HunterOld_Spring">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HunterOld_Summer">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_HunterOld_Winter">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_beige">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_black">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_blue">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_bluechecks">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_brown">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_greenchecks">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_khaki">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_magenta">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Jacket_stripes">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Blue">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Green">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_JoggerSkinny_Red">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_JournalistSkinny">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Green">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Beige">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Black">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Green">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Orange">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Red">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Yellow">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatientSkinny_Winter">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Flat">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PatrolNormal_Winter">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce_Heavy">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_PrisonerSkinny">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_Santa">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_SoldierNormal">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_usSoldier_normal_Desert">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_usSoldier_normal_Woodland">
 		<cargo preset="ZedCargo2" />
 		<cargo preset="ZedCargo3" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo preset="ZedCargo3" />
 		<cargo preset="ZedCargo4" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_VillagerOld_Blue">
 		<cargo preset="ZedCargo4" />
 		<cargo preset="ZedCargo5" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_VillagerOld_Green">
 		<cargo preset="ZedCargo5" />
 		<cargo preset="ZedCargo1" />
+		<cargo preset="ZedGas" />
 	</type>
 	<type name="ZmbM_VillagerOld_White">
 		<cargo preset="ZedCargo1" />
 		<cargo preset="ZedCargo2" />
+		<cargo preset="ZedGas" />
 	</type>
 </spawnabletypes>
