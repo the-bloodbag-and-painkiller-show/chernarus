@@ -467,7 +467,7 @@
         <min>1</min>
         <max>1</max>
         <lifetime>1800</lifetime>
-        <restock>1</restock>
+        <restock>0</restock>
         <saferadius>50</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>0</cleanupradius>
@@ -483,8 +483,8 @@
         <nominal>5</nominal>
         <min>5</min>
         <max>5</max>
-        <lifetime>600</lifetime>
-        <restock>1</restock>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
         <saferadius>50</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>0</cleanupradius>
