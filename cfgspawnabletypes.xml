@@ -435,6 +435,18 @@
 		<attachments preset="M4_Magazines" />
 		<attachments preset="Battery" />
 	</type>
+	<type name="SCARH">
+		<attachments chance="1.00">
+			<item name="SCAR_PrecisionBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HoloOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="Mag_SCARH_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments preset="Battery" />
+	</type>
 	<type name="SV98">
 		<attachments preset="M4_Sniper_Optics" />
 		<attachments chance="1.0">

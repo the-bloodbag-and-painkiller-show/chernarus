@@ -49,7 +49,11 @@
 			"./custom/vss-cz550.json",
 			"./custom/vss-svd.json",
 			"./custom/vss-sv98.json",
-			"./custom/vss-m14.json"
+			"./custom/vss-m14.json",
+			"./custom/scarh-cz550.json",
+			"./custom/scarh-svd.json",
+			"./custom/scarh-sv98.json",
+			"./custom/scarh-m14.json"
 		],
 		"disablePersonalLight": false,
 		"StaminaData":
